@@ -1,6 +1,17 @@
-import React from "react";
+import { ReactNode } from "react";
+import TableOfContents from "./TableOfContents";
 
-export default function Drawer({ children, isOpen, setIsOpen }) {
+type DrawerProps = {
+  isOpen: boolean;
+  setIsOpen: Function;
+  children?: ReactNode
+}
+
+export default function Drawer({ 
+  children, 
+  isOpen, 
+  setIsOpen 
+}: DrawerProps) {
   return (
     <main
       className={
@@ -18,6 +29,7 @@ export default function Drawer({ children, isOpen, setIsOpen }) {
       >
         <article className="relative w-screen max-w-lg pb-10 flex flex-col space-y-6 overflow-y-scroll h-full">
           <header className="p-4 font-bold text-lg">Header</header>
+          <TableOfContents />
           {children}
         </article>
       </section>

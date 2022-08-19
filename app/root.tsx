@@ -32,7 +32,6 @@ export async function loader({ request }: LoaderArgs) {
 }
 
 export default function App() {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <html lang="en" className="h-full">
       <head>
@@ -40,12 +39,9 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full">
-        <Header setIsOpen={setIsOpen} />
-      
+        <div className="flex flex-col h-screen">
         <Outlet />
-        <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
-          abc123
-        </Drawer>
+        </div>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
