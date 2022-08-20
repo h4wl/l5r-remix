@@ -35,7 +35,10 @@
     "@remix-run/serve": "^1.6.8",
     "@remix-run/server-runtime": "^1.6.8",
     "bcryptjs": "^2.4.3",
+    "esbuild": "^0.15.5",
+    "fs-extra": "^10.1.0",
     "isbot": "^3.5.0",
+    "mdx-bundler": "^9.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tiny-invariant": "^1.2.0"

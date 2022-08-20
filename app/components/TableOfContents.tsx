@@ -2,10 +2,10 @@
 
 
 
-export default function Header({ }) {
-    const headingElements = (typeof document !== "undefined")
+export default function TableOfContents({ }) {
+    const headingElements = (typeof document !== "undefined" && document.querySelector("article"))
         ? Array.from(
-            document.querySelectorAll("h2, h3, h4")
+            document.querySelector("article")!.querySelectorAll("h2, h3, h4")
           )
         : null;
     
