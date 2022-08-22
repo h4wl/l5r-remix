@@ -1,0 +1,39 @@
+Title: Qabal Schools
+---
+## Basic Schools
+
+### Qabal Agent (Diplomat)
+
+An evolution of the Qabal's need for secrecy during the rule of the Immortal Caliph, the Qabal's Agents are the unsung heroes of three centuries of magical persecution. The Agents train right alongside the sahir in the Stronghold, though agents are only successful if the sahir fail to realize who they are.
+
+- <strong>Benefit:</strong> +1 Perception
+- <strong>Integrity:</strong> 1.5
+- <strong>Skills:</strong> Sincerity (Deceit), Etiquette, Forgery, Investigation, Sleight of Hand, Stealth, one Merchant Skill.
+- <strong>Outfit:</strong> Knife, clothes, cloak, sandals traveling pack, calligraphy kit, 5 copper.
+
+### Techniques
+#### Rank 1: No One of Import
+
+You learn a Mastery level 1 Control Spell, which you may cast with subtlety without making the usual Awareness / Stealth Roll. Your Qabal Agent Class Rank counts as ranks of the Sahir School for determining your ability to cast Control Spells. Opponents suffer a -1k0 penalty on all rolls to determine if you are lying.
+#### Rank 2: A Good Excuse
+
+The TN of rolls made to determine your Integrity or identity are increased by a further 10 (this is cumulative with the effects of the Bland Advantage). You gain a +2k0 bonus to all Sincerity (Deceit) Rolls.
+#### Rank 3: Unassailable Reputation
+
+You learn a Mastery level 1 or 2 Control Spell, which you may cast with subtlety without making the usual Awareness / Stealth Roll. You gain a +1k0 bonus to all Contested Social Skill Rolls you do not initiate.
+#### Rank 4: The Ordered Bolthole
+
+You gain a +2k0 bonus to all Stealth Rolls. You may spend an amount of time determined by the GM (hours for a small crime scene, hours to days for a small building) to conceal evidence at a scene or to make a building more inconspicuous. Once this is done, anyone making an Investigation Roll on the scene or to identify the building or find evidence suffers a -Xk0 penalty to their Roll, where X is your Class Rank.
+#### Rank 5: Pillar of the Community
+
+You learn a Mastery level 1, 2 or 3 Control Spell, which you may cast with subtlety without making the usual Awareness / Stealth Roll. You learn a Mastery level 1,2 or 3 Blessing or Curses Spell, which you may cast with subtlety without making the usual Awareness / Stealth Roll. You may select spells for which you do not have the previous ranks. When an opponent is making an Investigation Skill Roll against you, you may spend a Void Point to prevent their dice from exploding
+### Qabal Summoner (Sahir)
+
+So named because the discipline of Summoning magic is the most impressive and easily identified magic that the Qabal practices, the summoner is potentially the most powerful of sahir in the Burning Sands, the result of centuries of refinements in magical technique followed by centuries of persecutent heaped on the sloppy or incompetent. The tradition of the Qabal sahir stretches almost all the way back to the Ashalan and the Day of Wrath, and the impressive body of knowledge the Qabal has collected shows it. Dozens of other magical methodologies are based on Qabal techniques, including the Dahabi Bargainers and the latter initiates of the Khadi.
+
+- <strong>Benefit:</strong> +1 to any trait
+- <strong>Integrity:</strong> 2.5
+- <strong>Skills:</strong> Calligraphy, Divination, Spellcraft, Lore: Theology, any three Skill.
+- <strong>Outfit:</strong> Staff, Knife, clothes, traveling pack, sandals, 5 copper.
+- <strong>Technique:</strong> <em>The Crucible of Knowledge</em> - The Summoner gains three <a href="/sahir-spell">Sahir Spell</a>s at level one, and three additional Sahir spells at each Insight Rank. At Rank one and each Class Rank thereafter, the Summoner chooses 1 type of spell (such as Jinn or Death) that they know. They function as if they possess a skill emphasis when making Spell Casting Rolls for that type of spell. Select one discipline; you gain a +1k1 bonus when casting spells of that discipline.
+

@@ -1,0 +1,66 @@
+Title: Dahabi Schools
+---
+## <span>Basic Schools</span>
+
+### <span>Dahabi Enforcer (Warrior)</span>
+
+The houses of Dahab and the Qolat both find themselves in need of fighting men, and to this end they funded research into the most effective fighting techniques, culled from the retired veterans of the City Guard. After several years of careful testing in the field, the Houses settled on a curriculum of techniques they believe serves as an appropriate <em>thug and leg-breaker</em> for both the organization and the conspiracy.<br/>
+The Dahabi Enforcers come from all of the Jewel's social strata, from scions of the Merchant Houses looking for a respectable military record with the City Guard to beggars with the will and the wit to impress a merchant enough to pay for their schooling. They are at home in virtually any setting and always calculate the likelihood that hey can make it to an exit or chokepoint quickly, sizing up potential opponents' grip strength and neck circumference, and noting the proximity of weapons. While other warriors might be more personally dangerous, no warrior is as prepared as a Dahabi Enforcer for combat at anitime, anywhere.
+
+- <strong>Benefit:</strong> +1 Strength
+- <strong>Integrity:</strong> 2.5
+- <strong>Skills:</strong> Athletics, Defense, Lore: Law, Investigation, Spears, Swordmanship, any one Skill.
+- <strong>Outfit:</strong> Longsword, knife, 20 arrows, light armor, clothes, traveling pack, boots, 5 copper.
+
+## <strong>Techniques</strong>
+#### Rank One: Moonless Night
+
+You gain a +1k0 bonus to Attack and Damage Rolls while in the Full Attack Stance. Your penalties for fighting in poor visibility conditions and in areas of difficult terrain are halved, round down.
+#### Rank Two: Dangerous Maneuvers
+
+You gain +1k1 bonus to all Contested Strength Rolls and +1k0 to all Damage Rolls during a grapple. Opponents suffer a -1k0 penalty to all of their Skill rolls for each ally of theirs which you have reduced to the Down or Out Wound ranks in the current skirmish. Opponents only suffer the highest dice penalty when facing multiple Dahabi Enforcers, the effect of penalties from several enforcers using this technique is not cumulative. Mindless enemies or those immune to Fear ignore this effect.
+#### Rank Three: Show of Force
+
+When attacking unarmed or using weapons with the Warrior keyword, you may make attacks as Simple Actions.
+#### Rank Four: Bitter Shadows
+
+You now gain +2k2 to all Contested Strength Rolls and +2k0 to all Damage Rolls during a grapple replacing the benefit gained at Rank 2.
+#### Rank Five: Final Strike
+
+Once per skirmish you may spend a Void Point in order to take a Complex Action or Simple Actions as normal while in the Center Stance. You gain the benefits of Center Stance during this round in addition to the round following the adoption Center Stance, in addition you gain +0k2 to all Damage Rolls while in the Center Stance and the round following the adoption of Center Stance.
+### <span>Dahabi Bargainer (Sahir)</span>
+
+The use of magic by the Qolat has been a sticky point for centuries. Some members of the conspiracy, most often traditionalists who treat the Qolat's dogma of divine noninterference as a religion all its own, oppose the use of magic, since it is widely believed that the powers of Hakkim's Seal come from the gods (or at least the Ashalan, who are little different in the Qolat's view). Other, more practical minds point out that the conspiracy has used the instruments of their enemies against thhem before, so why should they draw the line at magic?<br/>
+The Houses of Dahab almost universally endorse the practice of magic, as they do almost every advantage they can possibly ley their hands upon. While it it different in the Qolat, practicing magic in the Houses carry no stigma. Most sahir in the Houses belong to House Hazaad, since that house won special dispensation from the Immortal Caliph during her moratorium on unsanctioned magic. Apart from that, no real generalization can be made about the sahir employed by the Dahab.
+
+- <strong>Benefit:</strong> +1 Perception
+- <strong>Integrity:</strong> 1.5
+- <strong>Skills:</strong> Calligraphy, Commerce, Courtier, Divination, Medicine, Spellcraft, any one Skill.
+- <strong>Outfit:</strong> Knife, fine clothes, traveling pack, shoes, 20 copper.
+- <strong>Technique:</strong> <em>Penetrating Words</em> - When casting a Control spell you may spend a Void Point to add a number of hours to its Duration equal to your Rank in this Class. You receive a +1k1 bonus to Contested Rolls bargaining with Jinn for services.
+
+### <span>Dahabi Merchant (Diplomat)</span>
+
+Though originally a collection of desperate merchants and conspirators, the Houses of Dahab have done great deal to improve their collaboration and cooperation since their genesis so many centuries ago. Though it was a long time before the Houses instituted a system of formalized training for new merchants, it became clear in the Houses' early days that standardizing the education of young entrepreneurs would help them maintain a satisfactory standard of public conduct, as well as help them run their business competently.
+
+- <strong>Benefit:</strong> +1 Awareness
+- <strong>Integrity:</strong> 4.5
+- <strong>Skills:</strong> Commece, Courtier, Sincerity (Deceit), Etiquette, Lore: Underworld, any two Skills.
+- <strong>Outfit:</strong> Longsword, knife, 20 arrows, light armor, clothes, traveling pack, boots, 5 copper.
+
+## <strong>Techniques</strong>
+#### Rank 1: Master of the Subtle Flow
+
+You receive a +2k0 bonus to all Commerce Skill Rolls. You receive a +1k0 bonus to Contested Sincerity and Temptation Skill Rolls. You may purchase the Wealthy Advantage for one point less (minimum 1). You may purchase this advantage with Experience Points during play as normal.
+#### Rank 2: Upstanding Citizen
+
+If an opponent declares any Raises on a Contested Commerce, Sincerity or Temptation Skill Roll initiated against you, you gain +2k0 to your roll.
+#### Rank 3: An Eye for a Deal
+
+When spending Void Points on non-Weapon Skill Rolls, you add your Class Rank the total of the roll. Anyone with the Greedy Disadvantage can not explode or re-roll any of their dice in Contested Social Rolls against you.
+#### Rank 4: Silver Tongued Devil
+
+A number of times per session equal to your Class Rank, if you have failed a Sincerity Social Skill Roll, you may re-roll it as a Commerce Social Skill Roll instead. You must take the results of the Commerce Roll. You may negate the benefit of an opponent’s Irreproachable or Clear Thinker Advantages when making a Contested Social Roll against them. When purchasing new ranks in the Wealthy advantage during play, the gain in Copper is doubled. This is cumulative with the rank 1 technique of this class.
+#### Rank 5: Merchant King
+
+When making an uncontested Social Skill Roll for which you call no Raises, you gain +5k0 to the roll.

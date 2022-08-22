@@ -12,21 +12,13 @@ import {getMDXComponent} from 'mdx-bundler/client'
 
 import fs from "~/fs.server";
 
+export const unstable_shouldReload = () => true;
+
 export async function loader({ request, params }: LoaderArgs) {
     var test = params.id
-    const mdxSource = `
----
-title: Example Post
-published: 2021-02-13
-description: This is some description
----
 
-# Wahoo
-
-`.trim()
-console.log("test")
     console.log(__dirname)
-    const md = await fs.readFile("/favicon.ico");
+    const md = await fs.readFile(`${__dirname}/markdown/${test}.md`);
     
     const result = await bundleMDX({
         source: md.toString(),

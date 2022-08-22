@@ -1,0 +1,264 @@
+Title: Tsuno
+---
+The Tsuno were once Kitsu, but were exiled to Toshigoku, the Realm of Slaughter, in punishment for their actions in the City of Night. They did not remain there forever; indeed, they soon discovered how to pass freely between the borders of the Spirit Realms. Yet something in the Realm of Slaughter resonated with the Tsuno and their violent hearts. They built great cities within Toshigoku’s tormented landscape. Centuries there changed their forms to become monstrous, covered with intimidating spikes and horns, their long slavering mouths filled with sharp fangs. They retained their race’s intelligence and added to it a vicious cruelty, embracing a martial culture that prized strength and treated all other races with contempt. And they lost the shapeshifting ability that was the legacy of their Kitsu blood.<br/>
+The Tsuno did not regret the loss of their changeable forms, for they had embraced the new power to be found in Toshigoku. They developed their own fighting techniques, the so-called Ravager School, a vicious and brutal style that inspired and exploited the terror of their foes. They also developed and refined the magic which their Soultwister founders had discovered, a magic based on the powers and influences of the various Spirit Realms.
+
+All Tsuno have the creature qualities of Fear 2, Spirit, and Swift 3, reflecting their unnatural gifts as malignant creatures who traverse the Spirit Realms. Their unarmed attacks have a DR of 0k2 due to their sharp claws, and they have a natural Reduction of 5. Those Tsuno who have accepted the Taint have a Taint Rank of 4.
+
+The preferred Tsuno weapon is a large, heavy sword with a jagged and hooked appearance. Known simply as &quot;Tsuno Blades&quot;, these cruel and vicious weapons use the Heavy Weapons skill and have a base Damage Rating of 3k3. A Tsuno Blade gains a +1k0 attack bonus against any opponent who has at least one Rank of Taint, who has the Spirit quality, or who has the Touched by the Realms Advantage
+
+### <span>Tsuno Ravager [Bushi]</span>
+
+Tsuno Ravagers are the undisputed leaders of the Tsuno military. They are battle-hardened veterans who learn their School Techniques by performing dangerous quests into different Spirit Realms. They return changed: stronger, wiser, faster, and meaner. Ravagers lead from the front, their howls driving their troops into a disciplined but savage battle-frenzy. Tsuno Honor demands obedience in all things and the Ravagers enforce this discipline savagely, killing all who disobey.
+
+- <strong>Benefit:</strong> None
+- <strong>Skills:</strong> Athletics, Battle, Defense, Iaijutsu, Lore: Spirit Realms, Kenjutsu (Tsuno Blade), any one Bugei Skill.
+- <strong>&quot;Honor&quot;:</strong> 4.5
+- <strong>Outfit:</strong> Tsuno Blade, Light Armor
+
+## <strong>Techniques</strong>
+#### Rank 1: Kill Your Weakness
+
+Tsuno Ravagers draw strength from the weakness of others, and learn to conquer their own. When a Ravager is wounded he draws strength from the pain. When a Ravager is injured, he gains a Reduction rating equal to his current Wound Penalties. (This Technique works off of base Wound Penalties, ignoring any Wound Penalty modifications for spells, Advantages such as Strength of the Earth, and similar effects.) This bonus changes as the Ravager’s Wound Penalties change, and ceases to function once he is at Down or Out.
+#### Rank 2: Howl of the Displaced
+
+Ravagers are leaders among their Tsuno brethren. Once per day a Ravager can take a Simple Action to draw upon the fury of the Tsuno race and unleash a terrifying howl, inspiring the Ravager’s allies and disheartening his enemies. Any foes who hear the howl are affected by Fear 5, and any allies within earshot gain a +1k0 bonus to their attack rolls. Both effects last for a number of Rounds equal to the Ravager’s School Rank. Multiple Ravagers cannot stack their bonuses, although they can stack the duration and they each generate their own Fear effect.
+#### Rank 3: Tsuno Technique
+
+A Ravager’s years of battle in the Spirit Realms have taught him speed as well as strength. The Ravager may make melee attacks as a Simple Action instead of a Complex Action.
+#### Rank 4: Undying Vengeance
+
+Gaining the ire of a Tsuno Ravager is usually the last mistake its enemies ever make, for Ravagers have a supernatural sense of their enemies’ locations. If a Ravager has wounded or been wounded by a foe, he may take a Simple Action to make an Awareness Roll (TN 15 if the foe is within the same Spirit Realm, TN 25 if the foe has moved to another Spirit Realm). With a success, the Ravager learns the direction, distance, and physical condition of the foe. If the Ravager fails the roll, he loses track of his foe until the next time they meet (if any). Magic that shields someone from detection will protect against this Technique. The Ravager may track multiple foes at once if he has been wounded by more than one enemy.
+#### Rank 5: Slaughter is in the Blood
+
+Centuries of battle within Toshigoku have imbued the Tsuno Ravagers with a thirst for slaughter. If a Ravager kills an opponent, he immediately gains a number of individual +1k1 bonuses equal to his School Rank. These bonuses may be used on attack rolls, damage rolls, or any Skill or Trait roll, and must be used before the end of the next Round or they are lost. This Technique can be triggered a number of times each skirmish equal to the Ravager’s School Rank.
+### <span>Tsuno Soultwister [Shugenja]</span>
+
+Tsuno Soultwisters are peculiar beings - a combination of sage, thief, and warrior. They do not gain their magical abilities by calling on the kami to perform spells for them. Instead they steal the power of the spirits and use it to accomplish what they desire. Soultwisters are some of the toughest Tsuno in existence, for to gain their power they must venture into the wilds of the Spirit Realms and do battle with powerful spirits, stealing their power and claiming it for themselves. These battles leave Soultwisters scarred physically, mentally, and spiritually. Many Soultwisters bear these scars as badges of honor and some go so far as to perform ritual scarification to commemorate important victories.
+
+- <strong>Benefit:</strong> None
+- <strong>Skills:</strong> Athletics, Battle, Defense, Intimidation (Torture), Kenjutsu (Tsuno Blade), Lore: Spirit Realms, any one Bugei skill.
+- <strong>&quot;Honor&quot;:</strong> 3.5
+- <strong>Outfit:</strong> Tsuno Blade, light armor, satchel with ritual components
+- <strong>Affinity/Deficiency:</strong> Soultwisters have an affinity for spells related to any Spirit Realm for which they possess the Touch of the Spirit Realms Advantage. If the Soultwister has the Cursed by the Realm Disadvantage, he has a deficiency with spells related to the Realm associated with the Disadvantage.
+- <strong>Technique:</strong> <em>The Power of the Spirits</em> - Soultwisters travel across the Spirit Realms, learning tricks and stealing power, then imbuing their allies and enemies with the traits and powers of the spirits. No Soultwister can master the magic of all of the spirit realms; each Tsuno must choose three Spirit Realms when he becomes a Soultwister. He may only use spells related to those realms. He begins by knowing one spell from each of these three spirit realms. Every time the Soultwister increases in School Rank he may choose to either gain three new spells from his chosen Spirit Realms, or learn magic from a new Spirit Realm and gain one new spell (which may be from that Realm or one of the others he already knows).
+
+### <span>Soultwister Magic</span>
+
+Soultwisters do not cast spells in the Rokugani sense. Instead, they use the powers of the spirit realms to twist their enemies’ and allies’ souls to match those of the Spirit Realms they have visited. Mechanically, however, this functions in the same manner as casting Rokugani spells. Each Spirit Realm is associated with a Ring, and a Soultwister who is casting a spell rolls School Rank/Ring just like a Rokugani shugenja, at a TN of 5 + 5 times the spell’s Mastery Level. A Soultwister has spell slots just like a shugenja and conforms to the same rules regarding casting time, Raises, and so forth.<br/>
+For purposes of Tsuno spell casting, the Rings which are associated with the various Spirit Realms are as follows:
+
+- Air - Yomi and Chikushudo.
+- Earth - Gaki-do and Meido.
+- Fire - Sakkaku and Tengoku.
+- Water - Yume-do and Toshigoku
+
+There are no known Tsuno spells related to Ningen-do. The rules which follow present only three Mastery Levels of Soultwister spells. This is typically more than suffi cient, since Soultwister magic is both powerful and deadly. However, creative GMs should feel free to create higher Mastery spells for their Soultwister villains.
+
+The Soultwisters have not developed any spells related to Jigoku, perhaps because of their ancient origins as a group fighting against Jigoku’s power. However, on those occasions when Tsuno become Tainted (such as those who allied with Daigotsu during the twelfth century), their Soultwisters can cast Maho Spells as though they are Soultwister spells, and without the need to spill blood when casting the spells. (They still gain Taint as normal, however, so most Soultwisters are hesitant to use Maho too freely.)<br/>
+Maigo no Musha (the Realm of Thwarted Destiny) is a fairly modern addition to the Rokugani cosmology, and as of the late twelfth century the Soultwisters have not determined what powers, if any, they can steal from its denizens. It is possible that in future timelines the Tsuno may discover spells related to the Realm of Thwarted Destiny.
+
+#### <span>Mastery Level 1</span>
+
+### Benevolence of Tengoku
+- Realm/Ring: Tengoku/Fire
+- Range: 50’
+- Area of Effect: One target
+- Duration: School Rank x 5 Rounds.
+
+The Soultwister imbues the target’s soul with a sense of wellbeing and assurance, granting the confi dence to do anything. A creature affected by this spell receives a bonus of +1k0 on all Skill rolls and does not suffer any penalties for rolling unskilled.
+
+### Bloodlust of Toshigoku
+- Realm/Ring: Toshigoku/Water
+- Range: 50’
+- Area of Effect: One ally or enemy
+- Duration: School Rank x 2 Rounds
+- Raises: Special (2 raises to increase the TN of the Willpower roll by 5)
+
+The target of this spell is affl icted with the bloodlust of Toshigoku, attacking friend and foe alike with mindless determination. Soultwisters will often use this spell to remove the effectiveness of foes who do not generally attack in melee like bowmen or shugenja. They will also sometimes use it on a Tsuno Ravager and set him loose among the enemy. A creature under the Bloodlust of Toshigoku immediately changes to the Full Attack posture (if not already in Full Attack) and must adopt the Full Attack Posture every Turn for the duration of the spell. During his Turn he must attack the creature nearest to him, whether it is friend or foe. He must attack with a melee weapon or, if there are none in reach, with unarmed attacks. The mindless rage grants him a +1k0 bonus on attack rolls.<br/>
+If the target of this spell wishes to resist the bloodlust, he must roll Willpower at a TN equal to the Soultwister’s School Rank x 5. The TN is reduced by 10 if the closest target is a friend or close ally. If the roll is successful, the target does not act that Round (he is putting all his effort into resisting the spell’s compulsion).
+
+### Dream Messages of Yume-Do
+- Realm/Ring: Yume-do/Water
+- Range: School Rank x 100 miles
+- Area of Effect: One sleeping target
+- Duration: Caster’s School Rank in minutes
+
+The Soultwister uses the spirits of the dream realm to send messages to others in their sleep. The Soultwister appears within the target’s dreams and imparts a message using images and sounds (including speech if the Tsuno shares the target’s language). This is a one-way communication and the Soultwister cannot see how the target reacts to the message he has delivered. When the target wakes he remembers the message clearly, although it is up to him whether to believe the message or not.
+
+### Gaki-Do’s Grasping Hunger
+- Realm/Ring: Gaki-do/Earth
+- Range: Touch
+- Area of Effect: One Target
+- Duration: School Rank x 2 Rounds
+
+The Soultwister imbues the target with a portion of the hunger felt by the spirits of Gaki-do. This all-consuming hunger forces the target to consume the energy of others- or his own. Any successful melee attack made by the target of this spell gain a bonus to the total of the damage roll equal to 2 plus the School Rank of the Soultwister. During any Round in which the target does not hit an enemy; however, he suffers damage equal to 2 plus the School Rank of the Soultwister, as the hunger consumes a portion of his own essence.
+
+### Meido’s Lethargic Introspection
+- Realm/Ring: Meido/Earth
+- Range: 20’
+- Area of Effect: Self or one target creature
+- Duration: School Rank x 2 Rounds
+- Raises: Special (2 Raises to increase the Initiative penalty by 5, 2 Raises to increase the bonus to Knowledge Skills by +1k0)
+
+The Realm of Meido is a realm of waiting, but it is also a realm of introspection where souls review the events of their own lives so they may better present their case to Emma-O. The Soultwister calls on the powers of Meido to slow the actions of the target while enhancing his memory of past events. A creature affl icted by this spell feels extremely lethargic, wanting nothing more than to stand around and wait for judgment. If he is in a skirmish, or enters one while under the effects of this spell, his Initiative score is immediately reduced by an amount equal to 5 times the Soultwister’s School Rank. However, while the target’s body feels sluggish, his mind functions with a supernatural clarity. The target gains a +Xk0 bonus (where X is the Soultwister’s School Rank) to all Lore Skills and to all rolls involving memory.
+
+### Primal Senses of Chikushudo
+- Realm/Ring: Chikushudo/Air
+- Range: Touch
+- Area of Effect: Self or one target
+- Duration: School Rank x 2 hours
+
+The Soultwister draws on the enhanced senses of the animal spirits of Chikushudo, granting an enhanced sense of smell, sight, and hearing. The senses of the spell’s target are enhanced to supernatural levels. He gains two Free Raises on all rolls involving Perception. He also gains 1 Rank of the Hunting skill and the Tracking Emphasis if he does not already have it. However, while the animal spirits of Chikushudo are canny trackers, they are still animals. The target of this spell also gains a fascination with shiny and/or fast-moving objects. He must roll Willpower at TN 15 once per Round as a Free Action any time he is confronted with a distraction of this nature - otherwise he will chase the distraction.
+
+### Sakkaku’s Vandalism
+- Realm/Ring: Sakkaku/Fire
+- Range: 60’
+- Area of Effect: One object
+- Duration: Permanent
+
+The spirits of Sakkaku are mischievous and the Soultwister has learned to turn that supernatural mischief to his own ends, mystically causing a single object to break. This spell targets a single non-magical item, which will break the next time it is used. Soultwisters often use this power to make an opponent’s weapon snap or to destroy an enemy’s armor, though there are other more creative uses for it as well. If the item targeted by this spell gains magical properties while affected by this power (for example, if a sword targeted by Sakkaku’s Vandalism is later targeted by the spell Biting Steel), Sakkaku’s Vandalism is negated.
+
+### Yomi’s Ancestral Separation
+- Realm/Ring: Yomi/Air
+- Range: 30’
+- Area of Effect: One target
+- Duration: School Rank x 2 Rounds
+- Raises: Special (2 raises to increase the TN penalty by 5)
+
+The Soultwister’s knowledge of the spirits of Yomi allows him to lessen the connection between the target and his ancestors. The target of this spell suffers a diminishment of his connection to his ancestors, and while this will not actually negate an Ancestor’s guidance, the feeling of loss distracts the target from everything he is doing. All Skill and Trait rolls have their TN increased by 5 for the duration of the spell.
+
+#### <span>Mastery Level 2</span>
+
+### Agony of Toshigoku
+- Realm/Ring: Toshigoku/Water
+- Range: 30’
+- Area of Effect: One target
+- Duration: Caster’s School Rank in Rounds
+- Raises: Special (3 Raises to increase the TN of the Willpower roll by 5, 3 Raises to increase the damage of the spell by +1k1)
+
+The Soultwister has discovered the spirits of Toshigoku are in constant spiritual pain. Their frenzy for slaughter masks this pain, but it exists. The Soultwister channels this spiritual pain into another, causing indescribable agony. Creatures affected by this spell are wracked with terrible (albeit non-physical) pain; at the start of each Turn while they are under the effects of the spell, they must make a Willpower Roll (TN 25) or be unable to act during that Round. Further, if they fail the Willpower Roll the spiritual pain damages their body as well, causing 2k2 Wounds. Creatures native to Toshigoku and those without souls (such as undead) are immune to this power.
+
+### Bestial Nature of Chikushudo
+- Realm/Ring: Chikushudo/Air
+- Range: Touch
+- Area of Effect: Self or one target creature
+- Duration: Caster’s School Rank x 3 in Rounds
+- Raises: Special (5 Raises to affect a second set of Traits)
+
+The Soultwister has learned to enhance his and others’ physical abilities with the strength and power of the animal spirits of Chikushudo. The target of this spell increases the Rank of one of its physical Traits (Agility, Reflexes, Stamina, or Strength, chosen by the caster) by an amount equal to the Soultwister’s School Rank. The mental Trait corresponding to that physical Trait is decreased by an equal amount, but only to a minimum of 1. The target always receives the full increase to the physical Trait even if the mental Trait is unable to drop by the same amount. This spell does change the target’s Ring Rank but not the target’s Wounds.
+
+Gaki-Do’s Consuming Hunger
+
+- Realm/Ring: Gaki-do/Earth
+- Range: Touch
+- Area of Effect: One target creature
+- Duration: Caster’s School Rank x 2 in Rounds
+
+The Soultwister has learned to channel some of the hunger of the spirits who dwell in Gaki-do into others, allowing them to feast on the essence of their enemies. The target of this spell adds +2k2 to his damage rolls for any melee attack he makes. Moreover, a person wounded in this way must make a Willpower Roll at TN 30) or be Dazed by the feelings of hunger and pain that pass through them.
+
+### Knowledge of Yomi
+- Realm/Ring: Yomi/Air
+- Range: Touch
+- Area of Effect: Self
+- Duration: Concentration
+- Raises: Special (3 raises per extra question)
+
+The Soultwister calls on his connection to the spirits of Yomi to discover information about a single human mortal, tricking the ancestors into spilling their secrets. The caster may ask those ancestors two questions about that human (he must know the mortal’s name); the spirits will answer him truthfully. The human’s ancestors have complete knowledge of his capabilities and statistics, including his Traits, Skills, Glory, Honor, School Techniques, Advantages, Disadvantages, etc. If the Soultwister is asking about a human who has the guidance of an Ancestor, the Spell Casting TN for this spell is increased by the Experience Point cost of that Ancestor.
+
+### Malicious Pranks of Sakkaku
+- Realm/Ring: Sakkaku/Fire
+- Range: 50’
+- Area of Effect: One target creature
+- Duration: Instantaneous
+
+Most of the mischief performed by the spirits of Sakkaku is ultimately harmless, but to the truly malicious among them the pain of others is highly entertaining. A creature targeted by this spell becomes the butt of one of these malicious spirit’s favorite pranks: phantom pain. The creature suddenly feels wracking pain coursing through its body. The form the pain takes is never the same, so one target might feel like a thousand bees are stinging it while another might feel like its entire body was suddenly set on fi re. The target of this power must make a Stamina Roll at a TN of 10x the Soultwister’s School Rank; if the roll succeeds the pain does not overwhelm the target, but if the roll fails, the target suffers 3k3 Wounds and falls Prone.
+
+### Meido’S Call
+- Realm/Ring: Meido/Earth
+- Range: 25’
+- Area of Effect: One target creature
+- Duration: Caster’s School Rank x 2 in Rounds
+
+A Soultwister can force the target of this spell closer to death. A creature targeted by this spell feels the forces of Meido pulling upon its soul, and for the duration of the spell the creature functions as if it is one Wound Rank lower than it truly is. For example, a samurai in the +5 Wound Rank would function as though he was in the +10 Wound Rank instead. This spell will cause death if the target is at the Out Wound Rank.
+
+### Shield of Tengoku
+- Realm/Ring: Tengoku/Fire
+- Range: 100’
+- Area of Effect: Self or one target creature
+- Duration: Caster’s School Rank in Rounds
+
+The Soultwister calls on the power of the spirits of the Celestial Heavens to protect the spell’s target. For the duration of this spell, the target gains Reduction equal to the Soultwister’s School Rank x2.
+
+### Yume-Do’s Horrific Nightmares
+- Realm/Ring: Yume-do/Water
+- Range: 1 mile
+- Area of Effect: One target creature
+- Duration: Caster’s School Rank in days
+- Raises: Duration (+1 day per 2 Raises)
+
+The Soultwister has learned how to utilize the darker side of the Realm of Dreams to inflict terrible nightmare. The target of this spell suffers severe nightmares every time he sleeps, and cannot rest peacefully. For the duration of this spell the target cannot recover Void Points, Wounds, or Spell Slots by resting. Each morning the target must make a Meditation/Stamina Roll (TN 15 + 5 per day affected) to avoid becoming Fatigued.<br/>
+If the creature affected by this spell has the Phobia Disadvantage, its phobia is extremely prominent during these nightmares and it will begin to see signs of it in the waking world. While the spell lasts, any time the creature is in a stressful situation he will hallucinate something related to his Phobia, activating the effects of his Disadvantage for the remainder of the encounter.
+
+#### <span>Mastery Level 3</span>
+
+### Banished from Yomi
+- Realm/Ring: Yomi/Air
+- Range: 100’
+- Area of Effect: One target human
+- Duration: Caster’s School Rank in days
+
+The Soultwister has learned all he can about the way the spirits of Yomi interact with their descendants, and can now sever that connection for a limited time. The target of this spell loses any connection he has to his ancestors. He loses any abilities granted to him by an Ancestor (as detailed in the Book of Water) and also loses the Haunted Disadvantage and the Touch of the Spirit Realms (Yomi) Advantage for the duration of this spell. Also, a person affected by this spell is so distracted by his loss of connection to his ancestors that he suffers a +5&#160;TN penalty on all Actions.
+
+### Consumed by Gaki-Do
+- Realm/Ring: Gaki-do/Earth
+- Range: 30’
+- Area of Effect: One target creature
+- Duration: 1 Round
+- Raises: Duration (+1 Round per 3 Raises)
+
+Soultwisters who are truly familiar with the spirits in Gaki-do have learned how to force the all-consuming hunger those spirits feel upon others. The target of this spell feels an insatiable and monstrous hunger, and for the duration of the spell suffers a TN penalty to all Actions equal to 5x the Soultwister’s School Rank.
+
+### One with Chikushudo
+- Realm/Ring: Chikushudo/Air
+- Range: 20’
+- Area of Effect: Self or one target creature
+- Duration: Caster’s School Rank in Rounds
+- Raises: Duration (+2 Rounds per Raise)
+
+The Soultwister has learned so much from the animal spirits of Chikushudo that he can imbue himself or another with the greatest strengths of the savage animal spirits in Chikushudo. The target sprouts claws, granting a +3k2 bonus to unarmed damage rolls, and thick fur granting +3 Reduction. The target functions as if he had the creature ability of Swift 3 - if he already has Swift, he gains a +1 bonus to it. Finally, the target may make one unarmed attack per Round as a Free Action, but he cannot take any Raises on that attack. These advantages do not come without a cost, however. If the Intelligence Trait of the target is higher than 2, it drops to 2 for the duration of the spell. He also has diffi culty differentiating friend from foe, and when encountering someone for the fi rst time must make an Investigation/Intelligence Roll at TN 20 (using his lower Intelligence Trait) or assume they are an enemy regardless of the truth.
+
+### Questioned by Meido
+- Realm/Ring: Meido/Earth
+- Range: 40’
+- Area of Effect: One target human
+- Duration: 3 Rounds
+- Raises: Targets (+1 target per 2 Raises)
+
+A Soultwister who has truly learned the ways of the spirits of Meido is a frightening creature indeed, able to cause even the greatest of samurai to question their own actions and abilities. A person afflicted by this spell begins to suffer from a great sense of self-doubt, as if all the spirits of Meido are questioning his actions and his worth. Before taking any Action during a Round, a person affected by this spell must roll Honor at a TN of 10x the Soultwister’s School Rank. If the roll is failed, he stands dithering, unable to act (although he is still considered to have taken an Action of the appropriate type for the purposes of what he can do in a Round). If the target succeeds in the roll he may take the action normally, but must continue to roll each time he wishes to do something.
+
+### Spurned by Sakkaku
+- Realm/Ring: Sakkaku/Fire
+- Range: 100’
+- Area of Effect: One target creature
+- Duration: Caster’s School Rank in weeks
+- Raises: Special (4 Raises for an additional Rank of Unlucky)
+
+The spirits of Sakkaku delight in mischief, and a Soultwister who has mastered their powers can cause them to plague enemies for extended periods of time. Any creature affected by this spell gains a number of Ranks of the Unlucky Disadvantage equal to the Soultwister’s School Rank. He also loses an equal number of Ranks in the Luck Advantage (if he has any).
+
+### Tengoku’s Grace
+- Realm/Ring: Tengoku/Fire
+- Range: Touch
+- Area of Effect: Self or one target creature
+- Duration: 3 Rounds
+
+A Soultwister who is truly familiar with the power of the spirits of Tengoku can call on the power of the Celestial Heavens for protection. For the duration of this spell the target does not suffer from Wound Penalties, include those from being Down or Out, and gains the effects of the Great Destiny Advantage. The target also feels great confi dence in his own abilities, gaining a bonus of +1k1 to all Skill Rolls. Finally, the target cannot gain the Shadowlands Taint, willingly or otherwise, and cannot cast Maho for the duration of the spell.
+
+### Trapped in Yume-Do
+- Realm/Ring: Yume-do/Water
+- Range: 30’
+- Area of Effect: One target creature
+- Duration: Caster’s School Rank x 5 in Rounds
+
+The dream realm of Yume-do can exert an insidious hold over dreamers. A Soultwister who masters the power of the spirits of dream can trap people within their own dreams. When a Soultwister casts this spell on a creature, the creature immediately begins to live out a dream within its mind. The target of the spell believes what he is seeing is real, and will interact with it while ignoring the reality around him - even if he suffers Wounds or other unpleasant effects in the real world. During the Reactions Stage of any Round in which he takes damage, however, the target may make an Awareness Roll at TN 30 to realize something is wrong and awaken from the dream. If the target succeeds in awakening from the dream, he is still distracted by the dream’s visions for the duration of the spell, suffering a -3k0 penalty on all actions.
+

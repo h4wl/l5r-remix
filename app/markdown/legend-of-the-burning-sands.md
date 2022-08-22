@@ -1,0 +1,163 @@
+Title: Legend Of The Burning Sands
+---
+The Burning Sands are a setting close to Rokugan, which follows rules quite closely resembling those of the main setting. A quick listing of those rules can be found here.
+
+## <span>Skill Updates</span>
+
+Skill rules apply identical to their L5R counterpart aside from the following.
+
+- Kenjutsu is renamed Swordmanship.
+- Jiujutsu is renamed Brawling.
+- Divination can be used with Awareness.
+- Intimidation is a Bugei Skill.
+- Tahaddi dueling uses the rules for Iaijutsu dueling given in 4th edition, but with knives. Replace the Tahaddi mastery abilities with the mastery abilities given for Iaijutsu. The rank 3 mastery ability applies to readying two tahaddi knives.
+- Assassin Ranged Weapons functions as the Ninjitsu skills replacing mastery abilities as appropriate.
+
+## <span>Families</span>
+
+Characters in the Burning Sands belong generally in one of these <a href="/bsfamily">Factions and Families</a>.
+
+## <span>Schools</span>
+
+Schools (or alternatively Classes) exist as follows.
+
+- <a href="/scmedin">Medinaat Al-Salaam Schools</a>
+- <a href="/scdahab">Dahab Schools</a>
+- <a href="/scqabal">Qabal Schools</a>
+- <a href="/scass">Assassin Schools</a>
+- <a href="/scasha">Ashalan Schools</a>
+- <a href="/scrashari">Ra'Shari Schools</a>
+- <a href="/scsenpet">Senpet Schools</a>
+- <a href="/scyodotai">Yodotai Schools</a>
+- <a href="/scebon">Ebonite Schools</a>
+- <a href="/scjackal">Jackal Schools</a>
+
+## <span>Magic</span>
+
+There are two important magical paths in the Burning Sands: <a href="/sahir-spell">Sahir Spells</a> and <a href="/cokaloi">Cokaloi</a>.
+
+## <span>Advantages</span>
+
+#### Ambidextrous [Physical] (4 Points)
+
+You are equally skilled with both hands. When fighting with a weapon in your off-hand, you do not receive the normal +5&#160;TN penalty. When fighting with two weapons, your TN Penalty is reduced by 5.
+#### Blood of the Hanie [Physical] (2 Points)
+
+You are descended from the original Yodotai Empire. You gain +1k1 when using Social Skills on other Yodotai.
+#### Ceremony of the Hidden Heart [Mental/Spiritual] (10 Points)
+
+Though it is widely believed to be the blackest sorcery imaginable, a ritual where the slightest mistake could spell doom for all involved, the truth of the matter is that the process of creating a Khadi is actually fairly simple. The subject must be bound within a ritual space inscribed with Hakkim's Seal in the correct configuration, or the Seventeen and Nine Concentric Paeans to Anpu the Faultless Judge, depending on whether or not the ritual's performer is working with Chophren's modified version of with the original ritual from the Book of the Dead. Once the subject is rendered unconscious within the prepared space, the life slowly begins to slip from his body, exhaled through his mouth.
+
+Once his breath begins carrying traces of his soul, the ritualist must carve the target's heart from his chest. Once the heart is free from the subejct's chest, it must be placed within the chest of another being of the same species within a hour, or the ritual fails. Usually, the ritualist has a suitable host on hand.
+
+Once the heart becomes comfortable with beating in another chest, it must be removed again. At this point, the ritual is complete, and the subject is a khadi in all senses of the word, and gains the Khadi advantage. The original body becomes a ghul within an hour, as will all successive body that host the heart.
+
+Only sahir who have found a suitable teacher may purchase this Advantage and thus learn the Ceremony of the Hidden Heart. It is highly unlikely any existing khadi will teach it to sahir who have not undergone the ritual themselves.
+#### Cosmopolitan [Mental] (5 Points)
+
+The Yodotai empire encompasses many different cultures from different lands. You are skilled at adapting to those quirks and making people feel comfortable with your presence. You gain a +1k0 bonus to all Social Skill Rolls.
+#### Fitfully Sleeping Blood [Spiritual] (8 Points)
+
+Someone amongst your ancestors was a jinn in disguise, one of the great secrets of the Qabal. While you did not inherit their soul of smokeless fire, the mingling of mortals and jinn blood has left its mark on you. You may roll once on any of the 
+<a href="/jinn">Jinn</a>
+ Ability tables, and receive the result as an ability that you can invoke exactly as if you were a jinn.
+#### Gorilla Bodyguard [Material] (3 Points)
+
+You have a trained gorilla to serve as a bodyguard. You are considered to have 5 ranks in Animal Handling (Gorilla) for the purposes of giving your bodyguard commands. If you have already more than 5 Ranks in Animal Handling, you may use that instead.
+#### Inheritance, Crysteel Weapon [Material] (5 Points)
+
+Ashalan may chose this advantage to obtain a Crysteel weapon. A Crysteel weapons functions as normal, but has a +1k0 bonus to attack and damage rolls, and counts as Crystal for the purpose of Invulnerability.
+#### Inheritance, Khadja of the Council (5 Points) [Material]
+
+Ashalan may choose this weapon, with a DR of 1k4, used with the Polearms skill, that grants +1k0 to
+
+Attack Rolls.
+#### Khadi [Physical/Spiritual] (6/8 Points)
+
+You are one of the heartless sorcerers created by the black magic that the Immortal Caliph used to escape death. You are likely a former enforcer of the late Immortal Caliph's governemnt. Regardless of your current affiliation, you are virtually immortal. You heal 1 Wound per minute in addition to the Wounds you heal normally. You heal in both manners even if your body is totally obliterated, slowly coming back together in a manner that is deeply disturbing to any who watch.
+
+You can only be permanently destroyed if someone crushes or stabs your heart. Most khadi keep their hearts in ivory boxes. For the 6-point version of this Advantage, your heart belongs to another, and you must heed his will, for he could destroy you. The 8-point version of this Advantage means your heart is in your own hands, and you are the master of your own fate. Once per month, your heart must be transplanted inside a live host body and then removed again. The host becomes a ghul within an hour.
+#### Paragon of Faith [Spiritual] (6 Points)
+
+Your devotion to the Ten Thousand Gods is unshakable. You gain a free Void Point that can only be used for Senpet Character Class Techniques.
+#### Servant of Smokeless Fire [Spiritual] (4 Points)
+
+You have the ability to summon 
+<a href="/jinn">Jinn</a>
+ and barter with them for their services.
+#### Soul of Warriors [Spiritual] (10 Points)
+
+You are considered a true Yodotai hero by your peers, and more importantly by your ancestors. Whenever you are in combat, you have a guardian spirit fighting by your side.
+## <span>Disadvantages</span>
+
+#### Curse of the Grey Crone [Spiritual] (3 Points)
+
+Only those with the blood of Assassins may take this curse. You gain a difformity due to the Grey Crone's curse on Prince Hassan. This may be an internal or external one, with pain or constant spasms, strange growths, twisted muscles, extreme communication difficulties&#8230; Choose one Trait. This Trait is lowered to 1, and may not be increased through experience expanditure. However, the number of points needed to advance to the next Insight Rank is reduced by 5 for each Insight Rank (145 for the second, 165 for the third, etc). This Disadvantage is mandatory for male Assassins, and may be taken in conjunction with Dark Fate.
+#### Defiler of the Dead [Spiritual] (2 Points)
+
+Senpet are supposed to revere the Ten Thousand Gods and use human sacrifice for them, but you do not believe in this idiocy. You create ghuls for your own purpose. If anyone found out you were disgracing the priesthood like this, you would probably be executed.
+
+You gain a Free Raise on all Spellcasting Rolls involving Ghul Creation spells. However, you suffer a +5&#160;TN on all Social Skills with other Senpet.
+#### Despicable [Mental] (5 Points)
+
+Perhaps you do not believe in Yodotai gods, or are not a true Yodotai warrior. You do not attract the attention of Yodotai ancestors. You gain no advantage from Magic Resistance and may not purchase thisAvantage. You suffer a -2k0 penalty to all Social Skill Rolls involving other Yodotai.
+#### Forlorn [Mental] (2 Points for State, 5 Points for Religion)
+
+Only Senpet characters may take this disdavantage. Once you believed in both Empire and Religion, but something changed that. Choose either state or religion as your source of disillusionment. Whenever you attempt to use any Skill or Technique referencing that source, you suffer a +10&#160;TN penalty to that roll. Additionally, if you choose religion, you many not use any Void Points for techniques that require faith.
+## <span>Weapon Updates</span>
+
+Medinaat al’ Salaam
+
+- Longsword - Keywords: Medium, Warrior; Dr: 3k2; Skill: Swordmanship
+- Shortsword - Keywords: Medium, Warrior; Dr: 2k2; Skill: Swordmanship
+- Composite Bow - As per Yumi.
+
+Ashalan
+
+- Adiva - Keywords: Small, Ashalan; DR: 2k1; Skill: Knives
+- Ashalan Scythe - Keywords: Large, Ashalan; DR: 1k4; Skill: Unique
+- Blades of the Blood-Sworn - Keywords: Medium, Ashalan; DR: 2k3; Skill: Swordsmanship
+- Falchion - Keywords: Medium, Ashalan; DR: 3k2; Skill: Swordsmanship
+- Khadja - Keywords: Large, Ashalan; DR: 1k3; Skill: Polearms
+- Najya - Keywords: Medium, Ashalan; DR: 3k2; Skill: Unique (Mastery abilities as per the Knives Skill)
+
+Assassin
+
+- Choking Cord - Keywords: Small, Assassin; DR: 1k1 (Grapple only); Skill: Unique (Mastery abilities as per the Chain Weapons Skill)
+- Kindjal / Sikin - As per Tanto/Aiguchi
+- Jambiya - Keywords: Small, Assassin; DR: 1k1; Skill: Unique (Mastery abilities as per the Kenjutsu Skill)
+- Sayf-saghir - Keywords: Medium, Assassin; DR: 2k2; Skill: Swordsmanship
+- Shortbow - As per han-kyu
+
+Senpet
+
+- Adaga - Keywords: Senpet, Medium; Armor TN Bonus: +5; Reduction: 2
+- Large Wooden Shield - Keywords: Large; Armor TN Bonus: + 7; Reduction 3
+- Composite Longbow - As per Yumi, with the Senpet Keyword
+- Khopesh - As per Masakari, with the Senpet Keyword
+- Senpet Chain Shirt - As per Light Armor
+- Shamsir - As per LBS, with the Senpet Keyword
+
+Yodotai
+
+- Claymore - As per Dai-Tsuchi; Skill: Swordsmanship, with Yodotai Keyword
+- Gladius - As per Shortsword, with Yodotai Keyword
+- Half-Plate - As per Heavy Armor
+- Lorica Segmentata - Armor TN Bonus: +5, +5&#160;TN penalty to all Stealth rolls, with Yodotai Keyword
+- Parma - Shield. with Armor TN bonus +5, with +5&#160;TN penalty to all Agility and Reflexes rolls, with Yodotai and Small Keywords
+- Pilum - As per Nage-Yari, with Yodotai Keyword
+- Pugio - As per Tanto / Aiguchi, with Yodotai Keyword
+- Scutum - Shield. Keywords: Yodotai, Medium; Armor TN Bonus: +5; Reduction: 3
+- Yodotai Chain Shirt - Armor TN Bonus: +7; Reduction: 2; Special Rules: +5&#160;TN penalty to all Rolls involving Agility or Reflexes.
+
+Ebonites
+
+- Ebonite Armor - As per Light Armor
+- Ebonite Longsword - As per Longsword
+
+### <span>Shields</span>
+
+Using shields is a normal part of the warfare of many nations of the Burning Sands. However keeping a hold of a shield and trying to attack an opponent whilst staying in an orderly formation is tricky at best.
+
+Wielding any sort of shield confers the TN and Reduction listen in the shield entry, however, shields also use the Wielding Two Weapons rules in L5R 4th Edition to determine the penalty that the holder of the shield suffers to all attack rolls. In addition (unlike wielding two weapons) the wielder of a shield also suffers the same penalty to all athletics skill rolls. Unlike wielding two weapons there is little measure of skill in hiding behind a shield, so wielding a shield does not confer the standard benefits of wielding two weapons.
+
