@@ -30,6 +30,7 @@
     "/public/build"
   ],
   "dependencies": {
+    "@jsdevtools/rehype-toc": "^3.0.2",
     "@prisma/client": "^4.2.1",
     "@remix-run/node": "^1.6.8",
     "@remix-run/react": "^1.6.8",
@@ -42,7 +43,11 @@
     "mdx-bundler": "^9.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tiny-invariant": "^1.2.0"
+    "rehype-parse": "^8.0.4",
+    "rehype-slug": "^5.0.1",
+    "rehype-stringify": "^9.0.3",
+    "tiny-invariant": "^1.2.0",
+    "unified": "^10.1.2"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.4.0",
