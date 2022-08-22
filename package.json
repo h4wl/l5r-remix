@@ -46,6 +46,7 @@
     "rehype-parse": "^8.0.4",
     "rehype-slug": "^5.0.1",
     "rehype-stringify": "^9.0.3",
+    "rehype-wrap": "^1.0.10",
     "tiny-invariant": "^1.2.0",
     "unified": "^10.1.2"
   },

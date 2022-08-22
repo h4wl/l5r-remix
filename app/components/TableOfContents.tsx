@@ -11,6 +11,9 @@ export default function TableOfContents({ }) {
     
     if (!headingElements) return null;
 
+    const tocElement = (typeof document !== "undefined" && document.querySelector("nav.toc"));
+    if (!tocElement) return null;
+
     return (
     <div>
         {headingElements.map((el, i) => 

@@ -213,19 +213,6 @@ export async function loader({ request }: LoaderArgs) {
 export default function AirPage() {
     const [isOpen, setIsOpen] = useState(false);
     const data = useLoaderData<typeof loader>();
-    const [headingElements, setHeadingElements] = useState<Element[]>()
-
-    useEffect(()=> {
-        const elements = (typeof document !== "undefined" && document.querySelector("article"))
-        ? Array.from(
-            document.querySelector("article")!.querySelectorAll("h2, h3, h4")
-          )
-        : null;
-        
-        if (elements) setHeadingElements(elements);
-    }, [data.url])
-
-    
 
     return <>
 
@@ -234,22 +221,15 @@ export default function AirPage() {
             <div className="flex flex-row">
                 <div className="basis-1/4 flex flex-col">
                     {data.menu.MenuItems.map((item, idx) => <>
-                        <Link to={item.Path}>{item.Title}</Link>
+                        <Link to={item.Path} key={idx}>{item.Title}</Link>
                         {item.Children?.map((childItem, idx) => <>
-                            <Link to={item.Path + childItem.Path}>{childItem.Title}</Link>
+                            <Link to={item.Path + childItem.Path} key={idx}>{childItem.Title}</Link>
                         </>
                         )}
                     </>
                     )}
                 </div>
-                <article className={`basis-1/2 [&_h1]:text-6xl [&_h2]:text-5xl [&_h3]:text-4xl [&_h4]:text-3xl [&_h1,h2,h3,h4]:mb-2`}>
-                    <Outlet />
-                </article>
-                <div>
-                    {typeof headingElements !== "undefined" && headingElements.map((el, i) => 
-                        <div>{el.textContent}</div>
-                    )}
-                </div>
+                <Outlet />
             </div>
         </main>
 
