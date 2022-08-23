@@ -217,8 +217,8 @@ export default function AirPage() {
       <main>
         <Header isOpen={isOpen} setIsOpen={setIsOpen} />
         <div>
-        <div className=" max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-        <aside className="fixed top-16 hidden h-[calc(100vh_-_4rem)] left-[max(0px,calc(50%-38rem))] right-auto w-[20rem] basis-1/4 overflow-y-auto pl-6 pt-6 lg:block [&_a]:py-1 [&_li]:py-1">
+        <div className=" max-w-[90rem] mx-auto px-4 sm:px-6 md:px-8">
+        <aside className="hidden xl:block fixed inset-0 top-16  h-[calc(100vh_-_4rem)] left-[max(0px,calc(50%-45rem))] right-auto w-[19.5rem] overflow-y-auto pt-6 px-8 [&_a]:py-1 [&_li]:py-1">
           <nav>
             <ul>
               {data.menu.MenuItems.map((item, idx) => (
@@ -240,7 +240,7 @@ export default function AirPage() {
             </ul>
           </nav>
         </aside>
-        <div className="lg:pl-[20rem]">
+        <div className="xl:pl-[17.5rem]">
           <Outlet />
         </div>
         </div>

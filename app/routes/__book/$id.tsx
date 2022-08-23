@@ -75,7 +75,7 @@ export async function loader({ request, params }: LoaderArgs) {
       // plugins in the future.
       options.rehypePlugins = [...(options.rehypePlugins ?? []), rehypeSlug]
       options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, { 
-        wrapper: `article.prose p-6 lg:mr-[15.5rem] prose-headings:before:block prose-headings:before:content-['_'] prose-headings:before:-mt-16 prose-headings:before:h-16 prose-headings:before:invisible prose-headings:before:pointer-events-none`.trim()
+        wrapper: `article.prose mx-auto lg:ml-[4rem] xl:mx-0  sm:prose-sm md:prose-base lg:prose-lg xl:prose-xl 2xl:max-w-[50rem]  pt-6 lg:px-10 lg:mr-[15.5rem] prose-headings:before:block prose-headings:before:content-['_'] prose-headings:before:-mt-16 prose-headings:before:h-16 prose-headings:before:invisible prose-headings:before:pointer-events-none`.trim()
      }]]
       options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {
         position: "beforeend",
@@ -90,7 +90,7 @@ export async function loader({ request, params }: LoaderArgs) {
             type: "element",
             tagName: "aside",
             properties: {
-              className: "h-[calc(100vh_-_4rem)] overflow-y-auto fixed top-16 right-[max(0px,calc(50%-38rem))] w-[20rem] [&_a]:py-1 [&_li]:py-1 hidden lg:block",
+              className: "h-[calc(100vh_-_4rem)] overflow-y-auto fixed top-16 right-[max(0px,calc(50%-45rem))] w-[19.5rem] [&_a]:py-1 [&_li]:py-1 hidden lg:block",
             },
             children: []
           };
