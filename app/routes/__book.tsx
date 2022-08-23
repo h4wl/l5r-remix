@@ -1,6 +1,5 @@
 import { Link, Outlet } from "@remix-run/react";
 import { useEffect, useState } from "react";
-import BookLayout from "~/components/BookLayout";
 import Drawer from "~/components/Drawer";
 import Header from "~/components/Header";
 import TableOfContents from "~/components/TableOfContents";
