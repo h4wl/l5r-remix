@@ -1,6 +1,5 @@
 import { Link, Outlet } from "@remix-run/react";
 import { useEffect, useMemo, useState } from "react";
-import BookLayout from "~/components/BookLayout";
 import Drawer from "~/components/Drawer";
 import Header from "~/components/Header";
 import TableOfContents from "~/components/TableOfContents";
@@ -13,7 +12,7 @@ import {getMDXComponent, getMDXExport} from 'mdx-bundler/client'
 import fs from "~/fs.server";
 import invariant from "tiny-invariant";
 
-import { toc } from "@jsdevtools/rehype-toc";
+import { HtmlElementNode, ListNode, TextNode, toc } from "@jsdevtools/rehype-toc";
 import  rehypeSlug  from "rehype-slug";
 import  wrap  from "rehype-wrap";
 
@@ -58,12 +57,40 @@ export async function loader({ request, params }: LoaderArgs) {
           // The syntax might look weird, but it protects you in case we add/remove
           // plugins in the future.
           options.rehypePlugins = [...(options.rehypePlugins ?? []), rehypeSlug]
-          options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, {wrapper : "article.basis-1/2 [&_h1]:text-6xl [&_h2]:mb-6 [&_h2]:text-5xl [&_h3]:text-4xl [&_h3]:mb-5  [&_h4]:text-3xl [&_h4]:mb-4 [&_p]:mb-3"}]]
+          options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, {wrapper : "article.basis-1/2 px-6 pt-6 [&_h1]:text-6xl [&_h2]:mb-6 [&_h2]:text-5xl [&_h3]:text-4xl [&_h3]:mb-5  [&_h4]:text-3xl [&_h4]:mb-4 [&_p]:mb-3"}]]
           options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {
             position: "beforeend",
-            cssClasses: {
-              toc: "toc h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0"
-            }
+            customizeTOC (toc: HtmlElementNode) {
+              const newToc: HtmlElementNode = {
+                type: "element",
+                tagName: "aside",
+                properties: {
+                  className: "h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0 basis-1/4",
+                },
+                children: []
+              };
+
+              const tocHeader: HtmlElementNode = {
+                type: "element",
+                tagName: "div",
+                properties: {
+                  className: "text-2xl",
+                },
+                children: []
+              };
+              var text: TextNode = {
+                type: "text",
+                value: "Table of Contents"
+              };
+              tocHeader.children?.push(text);
+              newToc.children?.push(tocHeader);
+              newToc.children?.push(toc);
+
+              return newToc;
+              
+
+
+            },
           }]]
       
           return options
