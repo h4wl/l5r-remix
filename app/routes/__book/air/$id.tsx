@@ -22,9 +22,21 @@ export const unstable_shouldReload = () => true;
 
 
 export async function loader({ request, params }: LoaderArgs) {
+  console.log(__dirname);
+  console.log(process.env.NODE_ENV);
     var test = params.id
-    const mdPath = `${__dirname}/markdown/${test}.md`
-    const mdxPath = mdPath + "x";
+    let mdPath = "";
+    let mdxPath = "";
+
+    if (process.env.NODE_ENV === "development") {
+      mdPath = `${__dirname}/../app/markdown/${test}.md`
+      mdxPath = mdPath + "x";
+    } else {
+      mdPath = `${__dirname}/markdown/${test}.md`
+      mdxPath = mdPath + "x";
+    }
+
+    await fs.readFile(mdPath);
     let markdown = "";
     
     if(fs.existsSync(mdPath)) {
