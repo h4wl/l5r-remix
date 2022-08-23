@@ -219,11 +219,12 @@ export default function AirPage() {
         <Header setIsOpen={setIsOpen} />
         <main className="flex-1 overflow-y-auto">
             <div className="flex flex-row">
-                <div className="basis-1/4 flex flex-col">
+                <div className="h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0 basis-1/4 flex flex-col">
                     {data.menu.MenuItems.map((item, idx) => <>
                         <Link to={item.Path} key={idx}>{item.Title}</Link>
                         {item.Children?.map((childItem, idx) => <>
-                            <Link to={item.Path + childItem.Path} key={idx}>{childItem.Title}</Link>
+                            {/* <Link to={item.Path + childItem.Path} key={idx}>{childItem.Title}</Link> */}
+                            <Link to={childItem.Path} key={idx}>{childItem.Title}</Link>
                         </>
                         )}
                     </>

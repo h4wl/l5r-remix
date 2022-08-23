@@ -59,7 +59,12 @@ export async function loader({ request, params }: LoaderArgs) {
           // plugins in the future.
           options.rehypePlugins = [...(options.rehypePlugins ?? []), rehypeSlug]
           options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, {wrapper : "article.basis-1/2 [&_h1]:text-6xl [&_h2]:mb-6 [&_h2]:text-5xl [&_h3]:text-4xl [&_h3]:mb-5  [&_h4]:text-3xl [&_h4]:mb-4 [&_p]:mb-3"}]]
-          options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {position: "beforeend"}]]
+          options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {
+            position: "beforeend",
+            cssClasses: {
+              toc: "toc h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0"
+            }
+          }]]
       
           return options
         },
