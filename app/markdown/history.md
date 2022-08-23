@@ -1,3 +1,9 @@
+---
+meta:
+    title: History of the Emerald Empire
+---
+# {frontmatter.meta.title}
+
 ## The Birth of the Universe
 
 In the beginning, before the universe was created, there was only Nothing. The Nothing that existed before the birth of all things was aware, and at some point during its timeless existence, it realized it was alone - and thus experienced Fear. This unprecedented emotion was the first Sin, and created one third of the world. The realization of Fear also created in the Nothing a sense of loneliness and a desire for a companion. These sensations were the second Sin, Desire, and created a second third of the world. And when the Nothing realized what it had done, it experienced regret and a wish to unmake what it had mistakenly created. This was the third Sin, Regret, and it created the final portion of the world, completing it and ending the Nothing's existence.

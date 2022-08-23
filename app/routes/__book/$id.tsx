@@ -1,115 +1,128 @@
-import { Link, Outlet } from "@remix-run/react";
-import { useEffect, useMemo, useState } from "react";
-import Drawer from "~/components/Drawer";
-import Header from "~/components/Header";
-import TableOfContents from "~/components/TableOfContents";
-
-import { json, LoaderArgs } from "@remix-run/node";
+import { useMemo } from "react";
+import { json, LoaderArgs, MetaFunction } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { bundleMDX } from "~/mdx-bundler.server";
-import {getMDXComponent, getMDXExport} from 'mdx-bundler/client'
-
+import { getMDXComponent } from 'mdx-bundler/client'
 import fs from "~/fs.server";
-import invariant from "tiny-invariant";
+import { HtmlElementNode, TextNode, toc } from "@jsdevtools/rehype-toc";
+import rehypeSlug from "rehype-slug";
+import wrap from "rehype-wrap";
 
-import { HtmlElementNode, ListNode, TextNode, toc } from "@jsdevtools/rehype-toc";
-import  rehypeSlug  from "rehype-slug";
-import  wrap  from "rehype-wrap";
+// export const unstable_shouldReload = () => true;
 
-export const unstable_shouldReload = () => true;
+type LoaderType = {
+  result: {
+    frontmatter: {
+      [key: string]: any;
+    }
+  }
+}
 
+export const meta: MetaFunction = ({
+  data,
+}: {
+  data: LoaderType
+}) => {
+  const defaultMeta = {
+    title: "Title Not Set",
+  }
+  if (!data) {
+    return defaultMeta;
+  }
+  const { result } = data
+  const { frontmatter } = result;
+  const meta = frontmatter["meta"];
+  const title = meta && meta["title"];
 
+  return title ? { title } : defaultMeta
+
+};
 
 
 export async function loader({ request, params }: LoaderArgs) {
   console.log(__dirname);
   console.log(process.env.NODE_ENV);
-    var test = params.id
-    let mdPath = "";
-    let mdxPath = "";
+  var test = params.id
+  let mdPath = "";
+  let mdxPath = "";
 
-    if (process.env.NODE_ENV === "development") {
-      mdPath = `${__dirname}/../app/markdown/${test}.md`
-      mdxPath = mdPath + "x";
-    } else {
-      mdPath = `${__dirname}/markdown/${test}.md`
-      mdxPath = mdPath + "x";
-    }
+  if (process.env.NODE_ENV === "development") {
+    mdPath = `${__dirname}/../app/markdown/${test}.md`
+    mdxPath = mdPath + "x";
+  } else {
+    mdPath = `${__dirname}/markdown/${test}.md`
+    mdxPath = mdPath + "x";
+  }
 
-    await fs.readFile(mdPath);
-    let markdown = "";
-    
-    if(fs.existsSync(mdPath)) {
-      const md = await fs.readFile(mdPath);
-      markdown = md.toString();
-    } else if (fs.existsSync(mdxPath)) {
-      const mdx = await fs.readFile(mdPath);
-      markdown = mdx.toString();
-    }
-    else {
-      markdown = "# 404"
-    }
+  let markdown = "";
 
-    const result = await bundleMDX({
-        source: markdown,
-        mdxOptions(options, frontmatter) {
-          // this is the recommended way to add custom remark/rehype plugins:
-          // The syntax might look weird, but it protects you in case we add/remove
-          // plugins in the future.
-          options.rehypePlugins = [...(options.rehypePlugins ?? []), rehypeSlug]
-          options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, {wrapper : "article.basis-1/2 px-6 pt-6 [&_h1]:text-6xl [&_h2]:mb-6 [&_h2]:text-5xl [&_h3]:text-4xl [&_h3]:mb-5  [&_h4]:text-3xl [&_h4]:mb-4 [&_p]:mb-3"}]]
-          options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {
-            position: "beforeend",
-            customizeTOC (toc: HtmlElementNode) {
-              const newToc: HtmlElementNode = {
-                type: "element",
-                tagName: "aside",
-                properties: {
-                  className: "h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0 basis-1/4",
-                },
-                children: []
-              };
+  if (fs.existsSync(mdPath)) {
+    const md = await fs.readFile(mdPath);
+    markdown = md.toString();
+  } else if (fs.existsSync(mdxPath)) {
+    const mdx = await fs.readFile(mdxPath);
+    markdown = mdx.toString();
+  }
+  else {
+    markdown = "# 404"
+  }
 
-              const tocHeader: HtmlElementNode = {
-                type: "element",
-                tagName: "div",
-                properties: {
-                  className: "text-2xl",
-                },
-                children: []
-              };
-              var text: TextNode = {
-                type: "text",
-                value: "Table of Contents"
-              };
-              tocHeader.children?.push(text);
-              newToc.children?.push(tocHeader);
-              newToc.children?.push(toc);
-
-              return newToc;
-              
-
-
+  const result = await bundleMDX({
+    source: markdown,
+    mdxOptions(options, frontmatter) {
+      // this is the recommended way to add custom remark/rehype plugins:
+      // The syntax might look weird, but it protects you in case we add/remove
+      // plugins in the future.
+      options.rehypePlugins = [...(options.rehypePlugins ?? []), rehypeSlug]
+      options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, { wrapper: "article.basis-1/2 px-6 pt-6 [&_h1]:mb-7 [&_h1]:text-6xl [&_h2]:mb-6 [&_h2]:text-5xl [&_h3]:text-4xl [&_h3]:mb-5  [&_h4]:text-3xl [&_h4]:mb-4 [&_p]:mb-6" }]]
+      options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {
+        position: "beforeend",
+        customizeTOC(toc: HtmlElementNode) {
+          const newToc: HtmlElementNode = {
+            type: "element",
+            tagName: "aside",
+            properties: {
+              className: "h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0 basis-1/4",
             },
-          }]]
-      
-          return options
+            children: []
+          };
+
+          const tocHeader: HtmlElementNode = {
+            type: "element",
+            tagName: "div",
+            properties: {
+              className: "text-2xl",
+            },
+            children: []
+          };
+          var text: TextNode = {
+            type: "text",
+            value: "Table of Contents"
+          };
+          tocHeader.children?.push(text);
+          newToc.children?.push(tocHeader);
+          newToc.children?.push(toc);
+
+          return newToc;
+
         },
-      });
+      }]]
 
+      return options
+    },
+  });
 
-      return json({result});
-  
-    
+  return json({ result });
 }
 
 export default function IdPage() {
-    const { result } = useLoaderData<typeof loader>();
-    const { code } = result;
-    const Component = useMemo(() => getMDXComponent(code), [code])
-    return (<>
-       <Component /> 
-    </>
-        
-    );
-  }
+
+  const { result } = useLoaderData<typeof loader>();
+  const { code } = result;
+  const Component = useMemo(() => getMDXComponent(code), [code])
+  return (<>
+    <Component />
+  </>
+
+  );
+}
