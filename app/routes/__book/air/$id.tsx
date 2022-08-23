@@ -46,7 +46,7 @@ export async function loader({ request, params }: LoaderArgs) {
           // The syntax might look weird, but it protects you in case we add/remove
           // plugins in the future.
           options.rehypePlugins = [...(options.rehypePlugins ?? []), rehypeSlug]
-          options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, {wrapper : "article.basis-1/2 [&_h1]:text-6xl [&_h2]:mb-6 [&_h2]:text-5xl [&_h3]:text-4xl [&_h3]:mb-5  [&_h4]:text-3xl [&_h3]:mb-4"}]]
+          options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, {wrapper : "article.basis-1/2 [&_h1]:text-6xl [&_h2]:mb-6 [&_h2]:text-5xl [&_h3]:text-4xl [&_h3]:mb-5  [&_h4]:text-3xl [&_h4]:mb-4 [&_p]:mb-3"}]]
           options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {position: "beforeend"}]]
       
           return options
