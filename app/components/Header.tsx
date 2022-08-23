@@ -12,7 +12,7 @@ export default function Header({
         <h1 className="text-3xl font-bold">
           L5r
         </h1>
-        <h2>test</h2>
+        <img className="h-12" src="/img/l5c_logo_transparent-inverse.png"></img>
         <button
         className="bg-green-600 text-white rounded px-4 py-1"
         onClick={() => setIsOpen(true)}
