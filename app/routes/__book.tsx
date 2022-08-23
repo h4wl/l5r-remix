@@ -205,7 +205,7 @@ export async function loader({ request }: LoaderArgs) {
             }
         ]
     }
-    return json({menu, url: request.url});
+    return json({ menu, url: request.url });
 }
 
 
@@ -218,17 +218,25 @@ export default function AirPage() {
         <Header setIsOpen={setIsOpen} />
         <main className="flex-1 overflow-y-auto">
             <div className="flex flex-row">
-                <div className="h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0 basis-1/4 flex flex-col">
-                    {data.menu.MenuItems.map((item, idx) => <>
-                        <Link to={item.Path} key={idx}>{item.Title}</Link>
-                        {item.Children?.map((childItem, idx) => <>
-                            {/* <Link to={item.Path + childItem.Path} key={idx}>{childItem.Title}</Link> */}
-                            <Link to={childItem.Path} key={idx}>{childItem.Title}</Link>
-                        </>
-                        )}
-                    </>
-                    )}
-                </div>
+                <aside className="h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0 basis-1/4 [&_a]:py-1 [&_li]:py-1 pl-6 pt-6">
+                    <nav>
+                        <ul>
+                            {data.menu.MenuItems.map((item, idx) =>
+                                <li>
+                                    <Link className=" text-2xl font-medium " to={item.Path} key={idx}>{item.Title}</Link>
+                                    <ul>
+                                        {item.Children?.map((childItem, idx) =>
+                                            <li>
+                                                {/* <Link to={item.Path + childItem.Path} key={idx}>{childItem.Title}</Link> */}
+                                                <Link className="ml-3" to={childItem.Path} key={idx}>{childItem.Title}</Link>
+                                            </li>
+                                        )}
+                                    </ul>
+                                </li>
+                            )}
+                        </ul>
+                    </nav>
+                </aside>
                 <Outlet />
             </div>
         </main>

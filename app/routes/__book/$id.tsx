@@ -97,7 +97,7 @@ export async function loader({ request, params }: LoaderArgs) {
             type: "element",
             tagName: "div",
             properties: {
-              className: "text-2xl pt-6 pb-3",
+              className: "text-2xl font-medium pt-6",
             },
             children: []
           };
@@ -114,7 +114,9 @@ export async function loader({ request, params }: LoaderArgs) {
         },
         customizeTOCItem(toc: HtmlElementNode, heading: HtmlElementNode) {
           
-          if (heading.tagName === "h3") {
+          if (heading.tagName === "h2") {
+            toc.properties.className = "ml-3";
+          }else if (heading.tagName === "h3") {
             toc.properties.className = "ml-3";
           } else if (heading.tagName === "h4") {
             toc.properties.className = "ml-3";
