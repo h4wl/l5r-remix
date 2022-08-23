@@ -1,0 +1,51 @@
+Title: Naga Bloodlines
+---
+### <span>The Asp</span>
+
+- Bloodline Benefit: +1 Strength
+
+The Naga of the Asp are known for their sturdy bodies and strong minds. The Asp are the most militaristic of all the bloodlines and dedicate their lives to martial excellence. They believe in the power of might and will follow the strongest among their bloodline. Asp are fearless and determined, and do not back down either from enemy armies or from opposing arguments. The Shahadet, the Bloodline Champion of the Asp, serves as the general of the Naga armies and is generally the most physically powerful Asp.<br/>
+Unfortunately, this dedication to the physical leaves the Asp short in certain aspects. The Asp are prone to hubris and arrogance, far more so than other Naga. The Bloodland Wars, the confl ict that raged before the formation of the Naga Empire, occurred because the Asp leaders decided to conquer their Naga brothers. The crazed leader Shahismael started the bloody quest, but he could not have accomplished his tragedies if the Asp had not followed his orders. The Asp engaged in the Bloodland Wars with relish because they believed their martial might gave them the right to lead other Naga.<br/>
+Naga of the Asp often speak to others with condescension, for they believe themselves to be the greatest of all. The other bloodlines accept this as a personality quirk, for they know the Asps’ hearts are in the right place. The Asp form the majority of the Naga armies, and fi ght the creatures of the Foul with complete relish and dedication. The Naga Empire would quickly fall to outside forces were the Asp ever to fail in their duties.
+
+### <span>Chameleon</span>
+
+- Bloodline Benefit: +1 Awareness
+
+The Chameleons fi nd themselves at home within the shadows more than the rest of the Naga. They blend in with their surroundings, naturally hiding from predators. The Chameleons are physically smaller than most other bloodlines - only the Greensnakes are smaller. This has never been a problem to the Chameleons, who see their diminutive size as another benefit for their duties.<br/>
+The Chameleons are naturally adept at performing the role of the scout, since they are able to stalk their targets while remaining unseen. Their penchant for moving through the dark corners of the world makes them comfortable with stealth and deception. They train with the spear and bow, and their familiarity with subterfuge makes them ideal guardians for Naga temples, pearl beds, and the houses where their eggs and children are kept.<br/>
+Chameleons suffer more mutations than some of the other bloodlines, though rarely enough to turn them into Abominations. In particular, the majority of Chameleons are born with the ability to breath underwater. It should be no surprise, then, that the Chameleons built a city under the sea. They happily tend to the largest banks of pearl beds, knowing the rest of the Naga Empire could not survive without the steady stream of magical pearls they provide to the jakla.
+
+### <span>Cobra</span>
+
+- Bloodline Benefit: +1 Perception
+
+The Cobra bloodline has a unique connection to the Akasha that gives them abilities beyond those of the other bloodlines. They can sense the inherent power that lies in many pearls and manipulate them to create potent magic. Other bloodlines can learn to harness the same powers, but they must struggle to complete the simplest tasks while the Cobra master the more potent abilities with ease. This provides the Cobra with many responsibilities to fulfi ll for the Naga. Physically, the Cobra are the strangest of Naga, with great hoods and serpentine features that make them almost monstrous compared to the rest of the Naga race. Indeed, the Cobra skill with magic comes at a steep price. Their bloodline is the most mutated among the Naga, and the vast majority of the Cobra have at<br/>
+least one significant physical disability.<br/>
+The Cobra also tend to suffer somewhat from the arrogance of power. They are more comfortable with deceiving other Naga, for they believe their mastery of magical secrets gives them justifi cation in keeping dangerous knowledge away from their lesser brethren. Much like the Asp, the Cobras are arrogant and dismissive of those they believe weaker than themselves.
+
+### <span>Constrictor</span>
+
+- Bloodline Benefit: +1 Stamina
+
+The Constrictors are the most physically imposing Naga in their race, able to spread fear in the hearts of their enemies simply by looming over them. They are often as long as thirty feet from tail to head, and their mighty tails can crush enemies with little effort. However, the Constrictors are also the most peaceful of the Naga, known for their wisdom over their physical strength.<br/>
+The Constrictors have the strongest connection to the Akasha of any Naga, and understand its ways more than any other bloodline. Some Cobra insist their connection to the Akasha must be stronger because of their mastery of pearl magic; the Constrictors do not contradict them, but simply say everyone must serve the Akasha in their own way. The Constrictors are the arbiters of their civilization, settling disputes and feuds without bloodshed. Every Naga heeds the words of a Constrictor, for they understand the Constrictor only speaks after deep thought and careful study.<br/>
+Just as they delve the depths of the Akasha, the Constrictors have cast their eyes above to the stars to perceive the future. Astronomy is an imperfect art among the Rokugani, but the Naga consider it a precise science. Because Naga religion revolves around the sun and the moon, astronomers are greatly revered in their society. They can plot out specific events that will occur in the future by reading the state of the stars. It was a Constrictor who saw the dire future ahead of the Naga Empire and directed them to enter the Great Sleep.<br/>
+There are fewer Constrictors in the modern Naga Empire than any other bloodline. No one understands why they have failed to make fertile eggs, and everyone worries one day the Constrictors will become extinct. The Constrictors themselves acknowledge their fate with stoicism, stating the will of the Akasha will always guide their nation.
+
+### <span>Greensnake</span>
+
+- Bloodline Benefit: +1 Reflexes
+
+Greensnakes are the smallest of the Naga bloodlines, with adults often measuring as little as ten feet from tail to head. They are also the most numerous of the Naga and have adopted every single role within their society. They serve as warriors within the Naga armies and scouts among the forests. They learn the wisdom of the vedics and even sometimes master the pearl magic of the jakla. They adapt with ease and are always eager to learn more.<br/>
+The Greensnakes are quick to reach decisions and quick to act, often relying on instincts over reasoning. They are an optimistic bloodline, always choosing to believe in the good in others rather than the negative. Because of this, they often act as the diplomats of the Naga Empire. A Greensnake Scout was the fi rst Naga to make contact with Rokugan after their race woke from the Great Sleep, and it was the Greensnake diplomat the Dashmar who established a working relationship with these strange human neighbors. Above all, it was a Greensnake named the Mara who formed a romantic relationship with the human named Mirumoto Daini, giving birth to a unique human-Naga hybrid named Mirumoto Mareshi.<br/>
+Among the other bloodlines, the Greensnakes have a reputation for frivolity and impatience. The Greensnakes do not mind, for they know their zest for life and their enthusiasm for the world allow them to appreciate the little details that often pass by unnoticed by the rest of their people.
+
+### <span>Abomination</span>
+
+- Bloodline Benefit: +1&#160;To Any Trait
+
+Mutations among newly born Naga are sadly not uncommon, especially in the Cobra bloodline. However, severe mutations can also hamper the Naga’s connection to the Akasha. Those unfortunate Naga who can barely sense the Akasha are born only a handful of times per generation. These Abominations come from all bloodlines with equal frequency. Although they are still connected to the Akasha, they cannot sense it. They usually suffer debilitating physical mutations, but many also have their bodies strengthened by their changes. Such creatures are abandoned in the forest or sea to survive on their own. Most perish without a chance, but the few who survive can sometimes rejoin their society. Since they do not have the support of the rest of the Naga Empire, their mutations often must be vital to their survival.<br/>
+The Naga are so accustomed to their connection with the Akasha that they cannot imagine a life without its comfortable presence in their minds. The Abomination represents their worst fear and forces them to face those fears every time they see it. Many Abominations who survive to adulthood ultimately become alienated and choose to step further away from Naga society, even though their people might allow them to return.<br/>
+The souls of Abominations return to the Akasha upon death and they join the reincarnation cycle once more. This is a small comfort, but one that keeps many Abominations’ faith against heavy temptations.
+

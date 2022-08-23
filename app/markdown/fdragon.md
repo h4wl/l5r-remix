@@ -1,0 +1,33 @@
+Title: Families of the Dragon Clan
+---
+## The Kitsuki Family: +1 Awareness
+
+The ever-perceptive Kitsuki serve the Dragon Clan as magistrates and court representatives, although they are better suited as the former. Even in court, however, a Kitsuki's ability to perceive truth when presented with lies has proven a tremendous asset to the Dragon in their pursuit of an Empire free of deceit and treachery.
+
+## The Mirumoto Family: +1 Agility
+
+The Mirumoto are the broad shoulders that carry the burden of the Dragon Clan. While the Togashi pursue their unique brand of enlightenment, the Mirumoto rule the clan in all but name, overseeing its day to day operations and filling the ranks of its military. Comprising more than half of the Clan's ranks, the Mirumoto are the most commonly encountered Dragon samurai in the Empire.
+
+## The Tamori Family: +1 Willpower
+
+Perhaps the most militant shugenja family in the Empire, the Tamori embrace unique magical styles, including alchemy, blacksmithing, and melding of magic and war. The Tamori are more feared than other shugenja because of their willingness to commit to violence when other priests would turn away.
+
+## The Togashi Order: +1 Reflexes
+
+A monastic order rather than a true family, the Togashi accept all who wish to join their ranks, provided they are able to embrace the order's teachings and endure its trials, which many are not. Over the centuries, the monks of this order have used the divine blood of the Dragon Kami to create mystical tattoos that grant them incredible, supernatural abilities.
+
+## The Hitomi Order: +1 Strength
+## The Hoshi Order: +1 Void
+## The Agasha Family: +1 Perception
+
+Once a family of the Dragon Clan, the Agasha abandoned their Togashi masters when they felt the Dragon abandoned their duties to the Empire. The Phoenix have proven much more amenable to their unique brand of magic. The Agasha are highly experimental and curious, always pushing the boundaries of what is known and what can be safely attempted when dealing with magic.
+
+## Vassal Families
+
+Sakura (Kitsuki): +1 Willpower
+Kouken (Mirumoto): +1 Perception
+Zurui (Mirumoto): +1 Intelligence
+Chiyu (Tamori): +1 Perception
+Hiasobi (Tamori): +1 Intelligence
+Izaku (Agasha/Tamori): +1 Intelligence
+

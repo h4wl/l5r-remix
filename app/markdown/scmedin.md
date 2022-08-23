@@ -1,0 +1,86 @@
+Title: Medinaat Schools
+---
+## Basic Schools
+
+### Soldier of the City Guard (Warrior)
+
+The most enduring institution of the Jewel, the City Guard has served the Caliph since its inception. A purely volunteer organization for most of its history, the City Guard forms the core of the Jewel's standing army as well as policing the streets. The City Guard is also the only organization that is allowed to carry swords and heavy weapons legally. Since all it takes to join the Guard is volunteering two days of the week, many organizations such as the Houses of Dahab and the Ebonites enroll their warriors in the City Guard to allow them the privilege of carrying weapons. All of the Qadi serving in the Jewel were at one point guardsmen. This list of technique represents the training given to Guardsmen with no other affiliation.
+
+- <strong>Benefit:</strong> +1 Reflexes
+- <strong>Integrity:</strong> 5.5
+- <strong>Skills:</strong> Athletics, Defense, Lore: Law, Investigation, Spears, Swordmanship, any one Skill.
+- <strong>Outfit:</strong> Longsword, shortsword, composite bow, 20 arrows, light armor, clothes, traveling pack, boots, 3 copper.
+
+### Techniques
+#### Rank 1: Trained For War
+
+Add your Class Rank to rolls that attempt to sway your mind from your duties (this includes Fear Rolls and many Contested Social Rolls such as Intimidation or Temptation). Subtract your Class Rank from your Wound penalties. When attacking using a Class Skill, if you spend a Void Point to enhance the roll, you gain a +2k1 bonus instead of the usual +1k1 bonus.
+#### Rank 2: Strike With Fury
+
+You receive a +1k0 bonus to Initiative Rolls. You receive a +1k0 bonus to Attack Rolls while in the Full Attack Stance.
+#### Rank 3: Implacable Foe
+
+Choose any one weapon skill you possess: you receive a free Emphasis of your choice in that skill. When attacking with a melee weapon for which you possess the relevant emphasis you may make attacks as a Simple Action.
+#### Rank 4: Instrument of the Caliph
+
+Add twice your Class Rank to rolls that attempt to sway your mind from your duties (this includes Fear Rolls and many Contested Social Rolls such as Intimidation or Temptation). When spending Void to reduce damage any remaining wounds incurred from that strike are not applied until the Reactions Stage of the current round.
+#### Rank 5: The Sublime Warrior
+
+You may spend a Void Point to negate all TN penalties for one round, including Wound penalties. When spending a Void Point to increase your Armor TN or to add to your Initiative score (see the book of Earth) the benefit is increased by 5.
+### Free Sahir (Sahir)
+
+While they have always been rare, the Free Sahir were exceptionally restricted during the reign of the Immortal Caliph, and had to learn where and when they could. The current Sultan's repeal of the Immortal Caliph's laws regarding magic has only just begun to reverse this trend. Now, any hopeful to the mysteries of magic can walk through the Doors of the Qabal Stronghold and learn from the finest minds in the Burning Sands. Still, even this is too constraining for some sahir, and loose bands of sahir bound to no oaths exist in the Jewel.
+
+- <strong>Benefit:</strong> +1 Willpower
+- <strong>Integrity:</strong> 4.5
+- <strong>Skills:</strong> Etiquette, Spellcraft, Lore (Theology), any two Lore Skills, any two other Skills.
+- <strong>Outfit:</strong> Staff, knife, clothes, cloak, traveling pack, sandals, 5 copper
+- <strong>Technique:</strong> <em>Self-Taught Sorcerer</em> - You receive a +1k0 bonus to your Initiative Rolls for each rank you possess in this Class. When learning magic, you do so in the same manner as a Qabal Summoner (see below). However, you may only learn or improve 2 Disciplines at each Insight Rank, rather than 3.
+
+## Path of the Free Men
+
+The Jeweled City is teeming with millions outside of the factions that vie for control of the city. These teeming millions can represent interesting character ideas. Naturally, without a faction behind them, they gain no faction advantage, and like the Ronin of Rokugan they have little formal training to speak of. However for those adventurous GMs willing to allow players to rise up from the detritus of Medinat al-Salaam society, here are a few starting Paths that might prove useful.
+
+### Alley Thug (Path)
+
+- <strong>Technique Rank:</strong> 1
+- <strong>Benefit:</strong> +1 Strength
+- <strong>Skills:</strong> Brawling, Intimidation, Knives, Stealth, Underworld, any Two Skills
+- <strong>Technique:</strong> <em>Predator of the Alleys</em> - Alley Thugs know to strike like the crocodile of the rivers, hitting hard and preventing their prey from escaping. When attempting the Knockdown Maneuver you gain +1k0 to the Attack Roll. Your penalties for fighting in poor visibility conditions and in areas of difficult terrain are halved, round down.
+
+### Scholar (Path)
+
+- <strong>Technique Rank:</strong> 1
+- <strong>Benefit:</strong> +1 Intelligence
+- <strong>Class Skills:</strong> Calligraphy, Etiquette, Storytelling, Any four Lore Skills
+- <strong>Technique:</strong> <em>A Man of Knowledge</em> - A man of knowledge knows how to use his knowledge in any situation to support himself. You gain a Free Raise on Lore Skill Rolls. You gain a bonus equal to the number of Lore Skills you possess to all Etiquette and Storytelling Rolls.
+
+### Street Rat (Path)
+
+- <strong>Technique Rank:</strong> 1
+- <strong>Benefit:</strong> +1 Agility
+- <strong>Skills:</strong> Athletics, Stealth, Slight of Hand, Lore: Underworld, Any 3 Skills
+- <strong>Technique:</strong> <em>Master of the Streets</em> - In Medinaat al-Salam, a thief lives and dies by his skills and his knowledge of his quarter of the city. You dd +1k0 to Sleight-of-Hand and Athletics Skill Rolls. Choose a quarter of Medinaat al-Salam; when in that quarter, you roll an additional +1k0 to Athletics, Stealth, and Lore: Underworld Skill Rolls.
+
+## Advanced Schools
+
+### The Heartless Khadi
+
+Perhaps the more infamous inhabitants of the Jewel of the Desert for the last three centuries, the servants of the Immortal Caliph, were known not only for their tremendous magical power, but also for their invincibility and cruelty. While they now lurk in the sewers beneath the city rather than walking its streets as the Caliph's enforcers, they are still a force to be reckoned with. Their hybrid of Qabalistic and senpet magic makes them formidable in any arena, as does the frightening rate at which they learn it.
+
+Though in theory the transformation from mortal to Khadi can be performed on any intelligent creature, the traditions created by the Immortal Caliph included stringent standards about who made appropriate Khadi.
+
+Whenever you gain a level in this class, your previous School Rank increases by one for the purposes of casting Sahir spells; if you did not have attended a Sahir School, you instead gain spells as if you were a Qabal summoner with a School level to your School Rank.
+
+### Requirements:
+- <strong>Rings/Traits:</strong> Earth 5, Intelligence 5
+- <strong>Skills:</strong> Lore: Theology (Senpet) 5, Spellcraft (Black magic) 4
+- <strong>Special:</strong> Must endure the Ceremony of the Hidden Heart.
+
+## <strong>Techniques</strong>
+#### Rank 1: Heartless Moon
+
+You gain the Khadi Advantage. You receive a Free Raise for bargaining with Djinn. You gain the Interrogation Emphasis for Investigation; if you already had these, you are refunded their experience cost. You add +1k0 to your Investigation Skill Rolls.
+#### Rank 3: Judge of the Jewel
+
+You gain a level of the Magic Resistance Advantage, even if this would take you above the normal limit.
