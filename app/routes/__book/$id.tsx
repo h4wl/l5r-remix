@@ -74,7 +74,14 @@ export async function loader({ request, params }: LoaderArgs) {
       // The syntax might look weird, but it protects you in case we add/remove
       // plugins in the future.
       options.rehypePlugins = [...(options.rehypePlugins ?? []), rehypeSlug]
-      options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, { wrapper: "article.basis-1/2 px-6 pt-6 [&_h1]:mb-7 [&_h1]:text-6xl [&_h2]:mb-6 [&_h2]:text-5xl [&_h3]:text-4xl [&_h3]:mb-5  [&_h4]:text-3xl [&_h4]:mb-4 [&_p]:mb-6" }]]
+      options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, { 
+        wrapper: `article.px-6 pt-6 
+        [&_h1]:mb-7 [&_h1]:text-6xl 
+        [&_h2]:mb-6 [&_h2]:text-5xl [&_h2]:before:block [&_h2]:before:content-[' '] [&_h2]:before:content-['_'] [&_h2]:before:-mt-16 [&_h2]:before:h-16 [&_h2]:before:invisible [&_h2]:before:pointer-events-none
+        [&_h3]:text-4xl [&_h3]:mb-5 [&_h3]:before:block [&_h3]:before:content-[' '] [&_h3]:before:content-['_'] [&_h3]:before:-mt-16 [&_h3]:before:h-16 [&_h3]:before:invisible [&_h3]:before:pointer-events-none
+        [&_h4]:text-3xl [&_h4]:mb-4 [&_h4]:before:block [&_h4]:before:content-[' '] [&_h4]:before:content-['_'] [&_h4]:before:-mt-16 [&_h4]:before:h-16 [&_h4]:before:invisible [&_h4]:before:pointer-events-none
+        [&_p]:mb-6 lg:mr-[20rem]`.trim()
+     }]]
       options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {
         position: "beforeend",
         headings: ["h2", "h3", "h4"],
@@ -88,7 +95,7 @@ export async function loader({ request, params }: LoaderArgs) {
             type: "element",
             tagName: "aside",
             properties: {
-              className: "h-[calc(100vh_-_4rem)] overflow-y-auto sticky top-0 basis-1/4 [&_a]:py-1 [&_li]:py-1",
+              className: "h-[calc(100vh_-_4rem)] overflow-y-auto fixed top-16 right-0 w-[20rem] [&_a]:py-1 [&_li]:py-1 hidden lg:block",
             },
             children: []
           };
