@@ -75,9 +75,11 @@ export async function loader({ request, params }: LoaderArgs) {
       // plugins in the future.
       options.rehypePlugins = [...(options.rehypePlugins ?? []), rehypeSlug]
       options.rehypePlugins = [...(options.rehypePlugins ?? []), [wrap, { 
-        wrapper: `article.prose 
-          mx-auto lg:ml-[calc((100vw_-_1024px)_*_2/4)]   xl:ml-[calc((100vw_-_1280px)_*_2/3)]  2xl:mx-0
-          sm:prose-sm md:prose-base lg:prose-lg 2xl:prose-xl 2xl:max-w-[50rem]  pt-6 lg:px-10 lg:mr-[15.5rem] prose-headings:before:block prose-headings:before:content-['_'] prose-headings:before:-mt-16 prose-headings:before:h-16 prose-headings:before:invisible prose-headings:before:pointer-events-none`.trim()
+        wrapper: `article.prose sm:prose-sm md:prose-base lg:prose-lg 2xl:prose-xl
+          prose-headings:before:block prose-headings:before:content-['_'] prose-headings:before:-mt-16 prose-headings:before:h-16 prose-headings:before:invisible prose-headings:before:pointer-events-none
+          mx-auto lg:ml-[calc((100vw_-_1024px)_*_2/4)] lg:mr-[15.5rem] xl:ml-[calc((100vw_-_1280px)_*_2/3)] 2xl:mx-0
+          2xl:max-w-[50rem] 
+          pt-6 lg:px-10`.trim().replace(/\s\s+/g,' ')
      }]]
       options.rehypePlugins = [...(options.rehypePlugins ?? []), [toc, {
         position: "beforeend",
@@ -92,7 +94,13 @@ export async function loader({ request, params }: LoaderArgs) {
             type: "element",
             tagName: "aside",
             properties: {
-              className: "scrollbar-hide cursor-ns-resize h-[calc(100vh_-_4rem)] overflow-y-auto fixed top-16 right-[max(0px,calc(50%-45rem))] w-[19.5rem] [&_a]:py-1 [&_li]:py-1 hidden lg:block border-l pl-3",
+              className: `scrollbar-hide cursor-ns-resize 
+              h-[calc(100vh_-_4rem)] w-[19.5rem] 
+              overflow-y-auto fixed 
+              top-16 right-[max(0px,calc(50%-45rem))]  
+              [&_a]:py-1 [&_li]:py-1 
+              hidden lg:block 
+              border-l pl-3`.trim().replace(/\s\s+/g,' '),
             },
             children: []
           };
