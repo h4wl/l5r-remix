@@ -149,7 +149,7 @@ export async function loader({ request }: LoaderArgs) {
           },
           {
             Title: "Kata",
-            Path: "/katas",
+            Path: "/kata",
           },
           {
             Title: "Kiho",
