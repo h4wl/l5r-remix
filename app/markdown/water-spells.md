@@ -1,5 +1,6 @@
 Title: Water Spells
 ---
+
 ## Mastery Level 1
 
 ### Bo of Water [CR]
