@@ -3,31 +3,39 @@ import { ReactNode } from "react";
 type DrawerProps = {
   isOpen: boolean;
   setIsOpen: Function;
+  direction: "left" | "right";
+  header?: string;
   children?: ReactNode
 }
 
 export default function Drawer({ 
   children, 
   isOpen, 
-  setIsOpen 
+  setIsOpen,
+  direction,
+  header
 }: DrawerProps) {
   return (
-    <main
+    <aside
       className={
-        " fixed overflow-hidden z-10 bg-gray-900 bg-opacity-25 inset-0 transform ease-in-out " +
+        " fixed overflow-hidden z-10 bg-gray-900 bg-opacity-25 inset-0" +
         (isOpen
-          ? " transition-opacity opacity-100 duration-500 translate-x-0  "
-          : " transition-all delay-500 opacity-0 translate-x-full  ")
+          ? "  translate-x-0 "
+          : "  translate-x-full  ")
       }
     >
       <section
         className={
-          " w-screen max-w-lg right-0 absolute bg-white h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform  " +
-          (isOpen ? " translate-x-0 " : " translate-x-full ")
+          ` w-screen md:max-w-sm ${direction}-0 absolute bg-white h-full shadow-xl duration-100 transition-all transform  ` +
+          (isOpen 
+            ? " translate-x-0 " 
+            : (direction === "right" 
+              ? " translate-x-full " 
+              : " -translate-x-full ") )
         }
       >
-        <article className="relative w-screen max-w-lg pb-10 mt-16 overflow-y-scroll h-[calc(100vh_-_4rem)] ">
-          <header className="p-4 font-medium text-2xl">Table of Contents</header>
+        <article className="relative w-screen md:max-w-sm p-4 pb-10 mt-16 overflow-y-scroll h-[calc(100vh_-_4rem)] ">
+          {header && <header className="pb-4 font-medium text-2xl">{header}</header>}
           {children}
         </article>
       </section>
@@ -37,6 +45,6 @@ export default function Drawer({
           setIsOpen(false);
         }}
       ></section>
-    </main>
+    </aside>
   );
 }

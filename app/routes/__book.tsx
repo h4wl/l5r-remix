@@ -209,13 +209,14 @@ export async function loader({ request }: LoaderArgs) {
 }
 
 export default function AirPage() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [tocIsOpen, setTocIsOpen] = useState(false);
+  const [bookMenuIsOpen, setBookMenuIsOpen] = useState(false);
   const data = useLoaderData<typeof loader>();
 
   return (
     <>
-      <main>
-        <Header isOpen={isOpen} setIsOpen={setIsOpen} />
+      <main className={(tocIsOpen || bookMenuIsOpen) ? `overflow-hidden` : ''}>
+        <Header tocIsOpen={tocIsOpen} setTocIsOpen={setTocIsOpen} bookMenuIsOpen={bookMenuIsOpen} setBookMenuIsOpen={setBookMenuIsOpen} />
         <div>
         <div className=" max-w-[90rem] mx-auto px-4 sm:px-6 md:px-8">
         <aside className="scrollbar-hide cursor-ns-resize hidden xl:block fixed inset-0 top-16  h-[calc(100vh_-_4rem)] left-[max(0px,calc(50%-45rem))] right-auto w-[19.5rem] overflow-y-auto pt-6 px-8 border-r [&_a]:py-1 [&_li]:py-1">
@@ -248,8 +249,30 @@ export default function AirPage() {
         
         
       </main>
-
-      <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
+      
+      <Drawer isOpen={bookMenuIsOpen} setIsOpen={setBookMenuIsOpen} direction="left">
+      <nav>
+            <ul>
+              {data.menu.MenuItems.map((item, idx) => (
+                <li key={idx}>
+                  <Link className=" text-2xl font-medium " to={item.Path}>
+                    {item.Title}
+                  </Link>
+                  <ul>
+                    {item.Children?.map((childItem, idx) => (
+                      <li key={idx}>
+                        <Link className="ml-3" to={childItem.Path}>
+                          {childItem.Title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          </nav>
+      </Drawer>
+      <Drawer isOpen={tocIsOpen} setIsOpen={setTocIsOpen} header="Table of Contents" direction="right">
         <TableOfContents />
       </Drawer>
     </>

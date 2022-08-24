@@ -1,19 +1,26 @@
 import React from "react";
 
 type HeaderProps = {
-    setIsOpen: Function,
-    isOpen: boolean
+  setTocIsOpen: Function,
+  tocIsOpen: boolean
+  setBookMenuIsOpen: Function;
+  bookMenuIsOpen: boolean;
 }
 
 export default function Header({ 
-    setIsOpen,
-    isOpen
+    setTocIsOpen,
+    tocIsOpen,
+    setBookMenuIsOpen,
+    bookMenuIsOpen
 } : HeaderProps) {
   return (
     <header className="flex items-center justify-between bg-slate-800 p-4 text-white sticky top-0 h-16 z-50  ">
-        <h1 className="text-3xl font-bold">
-          L5r
-        </h1>
+        <button
+        className="bg-green-600 text-white rounded px-4 py-1"
+        onClick={() => setBookMenuIsOpen(!bookMenuIsOpen)}
+      >
+        book
+      </button>
         {/* <img className="h-12" src="/img/l5c_logo_transparent-inverse.png"></img> */}
         <div className="sm:hidden">xs</div>
         <div className="hidden sm:block md:hidden">sm</div>
@@ -23,9 +30,9 @@ export default function Header({
         <div className="hidden 2xl:block">2xl</div>
         <button
         className="bg-green-600 text-white rounded px-4 py-1"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setTocIsOpen(!tocIsOpen)}
       >
-        open
+        ToC
       </button>
       </header>
   );
