@@ -215,7 +215,7 @@ export default function AirPage() {
 
   return (
     <>
-      <main className={(tocIsOpen || bookMenuIsOpen) ? `overflow-hidden` : ''}>
+      <main className={"scroll-smooth" + ((tocIsOpen || bookMenuIsOpen) ? `overflow-hidden` : '')}>
         <Header tocIsOpen={tocIsOpen} setTocIsOpen={setTocIsOpen} bookMenuIsOpen={bookMenuIsOpen} setBookMenuIsOpen={setBookMenuIsOpen} />
         <div>
         <div className=" max-w-[90rem] mx-auto px-4 sm:px-6 md:px-8">
@@ -261,7 +261,7 @@ export default function AirPage() {
                   <ul>
                     {item.Children?.map((childItem, idx) => (
                       <li key={idx}>
-                        <Link className="ml-3" to={childItem.Path}>
+                        <Link onClick={() => setBookMenuIsOpen(false)} className="ml-3" to={childItem.Path}>
                           {childItem.Title}
                         </Link>
                       </li>
