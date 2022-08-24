@@ -53,7 +53,7 @@ export async function loader({ request }: LoaderArgs) {
       },
       {
         Title: "Book of Earth",
-        Path: "/book-of-earth",
+        Path: "/earth",
         Children: [
           {
             Title: "Rolls",
@@ -71,7 +71,7 @@ export async function loader({ request }: LoaderArgs) {
       },
       {
         Title: "Book of Fire",
-        Path: "/book-of-fire",
+        Path: "/fire",
         Children: [
           {
             Title: "Character Creation",
@@ -133,7 +133,7 @@ export async function loader({ request }: LoaderArgs) {
       },
       {
         Title: "Book of Water",
-        Path: "/book-of-water",
+        Path: "/water",
         Children: [
           {
             Title: "Mass Battle",
@@ -167,7 +167,7 @@ export async function loader({ request }: LoaderArgs) {
       },
       {
         Title: "Book of Void",
-        Path: "/book-of-the-void",
+        Path: "/void",
         Children: [
           {
             Title: "Multi-Elemental Spells",
