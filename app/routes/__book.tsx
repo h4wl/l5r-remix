@@ -273,7 +273,7 @@ export default function AirPage() {
           </nav>
       </Drawer>
       <Drawer isOpen={tocIsOpen} setIsOpen={setTocIsOpen} header="Table of Contents" direction="right">
-        <TableOfContents />
+        <TableOfContents setIsOpen={setTocIsOpen}/>
       </Drawer>
     </>
   );
