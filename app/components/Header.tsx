@@ -1,28 +1,32 @@
 import React from "react";
-import { BookOpenIcon, ListBulletIcon } from '@heroicons/react/24/outline'
+import { BookOpenIcon, ListBulletIcon } from "@heroicons/react/24/outline";
+import { Link } from "@remix-run/react";
 type HeaderProps = {
-  setTocIsOpen: Function,
-  tocIsOpen: boolean
+  setTocIsOpen: Function;
+  tocIsOpen: boolean;
   setBookMenuIsOpen: Function;
   bookMenuIsOpen: boolean;
-}
+};
 
 export default function Header({
   setTocIsOpen,
   tocIsOpen,
   setBookMenuIsOpen,
-  bookMenuIsOpen
+  bookMenuIsOpen,
 }: HeaderProps) {
   return (
-    <header className="flex items-center justify-between bg-slate-800 p-4 text-white sticky top-0 h-16 z-50  ">
-
-      <div className="visible xl:invisible"
-        onClick={() => setBookMenuIsOpen(!bookMenuIsOpen)}>
-        <BookOpenIcon className="w-10 h-10" />
+    <header className="sticky top-0 z-50 flex h-16 items-center justify-between bg-slate-800 p-4 text-white  ">
+      <div
+        className="visible xl:invisible"
+        onClick={() => setBookMenuIsOpen(!bookMenuIsOpen)}
+      >
+        <BookOpenIcon className="h-9 w-9" />
       </div>
 
-      <img className="h-12" src="/img/l5c_logo_transparent-inverse.png"></img>
-      
+      <Link to="/">
+        <img className="h-12" src="/img/l5c_logo_transparent-inverse.png"></img>
+      </Link>
+
       {/* <div className="sm:hidden">xs</div>
       <div className="hidden sm:block md:hidden">sm</div>
       <div className="hidden md:block lg:hidden">md</div>
@@ -30,9 +34,11 @@ export default function Header({
       <div className="hidden xl:block 2xl:hidden">xl</div>
       <div className="hidden 2xl:block">2xl</div> */}
 
-      <div className="visible lg:invisible"
-        onClick={() => setTocIsOpen(!tocIsOpen)}>
-        <ListBulletIcon className="w-10 h-10" />
+      <div
+        className="visible lg:invisible"
+        onClick={() => setTocIsOpen(!tocIsOpen)}
+      >
+        <ListBulletIcon className="h-9 w-9" />
       </div>
     </header>
   );

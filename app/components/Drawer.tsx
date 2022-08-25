@@ -26,7 +26,7 @@ export default function Drawer({
     >
       <section
         className={
-          ` w-screen md:max-w-sm ${direction}-0 absolute bg-white h-full shadow-xl duration-100 transition-all transform  ` +
+          ` w-screen md:max-w-sm ${direction === "right" ? "right-0" : "left-0"} absolute bg-white h-full shadow-xl duration-100 transition-all transform  ` +
           (isOpen 
             ? " translate-x-0 " 
             : (direction === "right" 
