@@ -219,7 +219,7 @@ export default function AirPage() {
         <Header tocIsOpen={tocIsOpen} setTocIsOpen={setTocIsOpen} bookMenuIsOpen={bookMenuIsOpen} setBookMenuIsOpen={setBookMenuIsOpen} />
         <div>
         <div className=" max-w-[90rem] mx-auto px-4 sm:px-6 md:px-8">
-        <aside className="scrollbar-hide cursor-ns-resize hidden xl:block fixed inset-0 top-16  h-[calc(100vh_-_4rem)] left-[max(0px,calc(50%-45rem))] right-auto w-[19.5rem] overflow-y-auto pt-6 px-8 border-r [&_a]:py-1 [&_li]:py-1">
+        <aside className="scrollbar-hide cursor-ns-resize hidden xl:block fixed inset-0 top-16  h-[calc(100vh_-_4rem)] left-[max(0px,calc(50%-45rem))] right-auto w-[19.5rem] overflow-y-auto pt-6 px-8 border-r [&_a]:py-2 [&_li]:py-2">
           <nav>
             <ul>
               {data.menu.MenuItems.map((item, idx) => (
@@ -260,7 +260,7 @@ export default function AirPage() {
                   </Link>
                   <ul>
                     {item.Children?.map((childItem, idx) => (
-                      <li key={idx}>
+                      <li className=" py-2" key={idx}>
                         <Link onClick={() => setBookMenuIsOpen(false)} className="ml-3" to={childItem.Path}>
                           {childItem.Title}
                         </Link>

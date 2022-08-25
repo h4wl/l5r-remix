@@ -32,7 +32,7 @@ export default function TableOfContents({ setIsOpen }: TableOfContentsProps) {
   if (!tocElement) return null;
 
   return (
-    <nav className="flex flex-col">
+    <nav className="flex flex-col space-y-2">
       {headingElements.map((el, i) => {
         return (
           <Link to={`#${el.id}`} onClick={() => setIsOpen(false)} className={getClassName(el.tagName)} key={i}>
